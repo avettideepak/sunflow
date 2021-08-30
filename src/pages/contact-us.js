@@ -7,7 +7,6 @@ import React from "react";
 
 import Layout from "@/layout";
 import SEO from "@/functions/seo";
-
 // import Test from "../other/test";
 // import StaticContent from "../components/AC-StaticPages/StaticContent";
 import ContactUs from "../components/AC-ContactUs/ContactUs"

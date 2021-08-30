@@ -83,21 +83,62 @@ function Footer() {
       };
       return (
         <footer id="footer">
-          <div className="new-footer" style={{ maxWidth: "100%" }}>
-            <div className="columns " style={{ maxWidth: "100%" }}>
-              <div className="footer_Line">
-                <div>
-                  <div className="footerLogo pull-left">
-                    <Img
-                      fixed={data.Logo.childImageSharp.fixed}
-                      alt="Avetti eCommerce Logo"
-                    />
-                  </div>
-                </div>
+          <div>
+            <div className="fo">
+              <div className="fo-left">
+                <h1>We would love to<br/> hear from you</h1>
+                <ul>
+                  <li><img src="https://ik.imagekit.io/ofb/sunflow/phone-alt_ahszklOAL.png"/> 705-252-8814</li>
+                  <li><img src="https://ik.imagekit.io/ofb/sunflow/envelope_RFcIMOz2br.png"/>info@sunflow.ca</li>
+                </ul>
+                <p>
+                Sales office</p>
+                <div className="mapb"><img src="https://ik.imagekit.io/ofb/sunflow/Rectangle_5_SmmlxzkC9.png?updatedAt=1630048473990" /></div>
+                  
+                  <span>30 Quarry Ridge Rd, L4M 7G1 - Barrie
+                  </span>
               </div>
-              {/* Mobile Version */}
-              
-              
+              <div className="fo-right" id="contactForm">
+              <h1>Get a quote</h1>
+              <p>Fill in the form and one of our specialists will get back to you.</p>
+                <div className="fornf">
+                  <div className="fornfL">
+                    <label>First Name</label>
+                    <input type="text" placeholder="Your first name" />
+                  </div>
+                  <div className="fornfR">
+                    <label>Last Name</label>
+                    <input type="text" placeholder="Your last name" />
+                  </div>
+                </div>  
+                <div className="fornf1">
+                  <div className="fornfL1">
+                    <label>EMAIL</label>
+                    <input type="text" placeholder="Your email address" />
+                  </div>
+                  <div className="fornfR1">
+                    <label>PHONE</label>
+                    <input type="text" placeholder="Your phone" />
+                  </div>
+                </div>  
+                <div className="fornf2">
+                  <div className="fornfL2">
+                    <label>How do you want to be contacted?</label>
+                    <select>
+                      <option>By email</option>
+                      </select>
+                  </div>
+                </div>  
+                <div className="fornf3">
+                  <div className="fornfL3">
+                    <label>MESSAGE</label>
+                    <input type="text" placeholder="Leave your message" />
+                  </div>
+                </div> 
+
+                <span>SEND <img src="https://ik.imagekit.io/ofb/sunflow/arrow-right_QHxNy1I718.png?updatedAt=1630049327061" /></span>           
+
+              </div>
             </div>
           </div>
         </footer>

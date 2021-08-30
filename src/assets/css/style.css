@@ -338,7 +338,7 @@ nav .brand-logo img {
 }
 
 .brand-logo.logo-i {
-  height: 77px !important;
+  height: 77px;
 }
 
 .iconInfo {}
@@ -2908,9 +2908,10 @@ footer#footer {
   text-align: center;
 }
 
+
 .sliderBtns h1 {
   text-align: left;
-  font: normal normal normal 44px/97px Montserrat;
+  font: normal normal normal 54px/97px Montserrat;
   letter-spacing: 0px;
   color: #FFFFFF;
   opacity: 1;
@@ -2962,6 +2963,35 @@ footer#footer {
   margin: 0px auto;
   position: absolute;
 }
+.QuoteProject{
+  display: flex;
+    flex-direction: row;
+    padding: 15px 32px;
+    background: #76BD22;
+    border-radius: 100px;
+    color: #fff;
+    font-weight: 600;
+    margin-top: 25px;
+    text-transform: capitalize;
+    align-items: center;
+}
+.QuoteProject:hover{
+  display: flex;
+    flex-direction: row;
+    padding: 15px 32px;
+    background: #76BD22;
+    border-radius: 100px;
+    color: #fff;
+    font-weight: 600;
+    margin-top: 25px;
+    text-transform: capitalize;
+    align-items: center;
+}
+.QuoteProject img{
+  float: right;
+  width: 15px;
+  margin-left: 10px;
+}
 
 .sliderBtns ul li {
   display: flex;
@@ -2969,8 +2999,8 @@ footer#footer {
   align-items: center;
   color: rgb(255, 255, 255);
   flex: 1 1 50%;
-  font-size: 19px;
-  min-width: 200px;
+  font-size: 21px;
+  min-width: 280px;
   float: left;
   justify-content: center;
   border-bottom: 2px solid #fff;
@@ -2979,6 +3009,12 @@ footer#footer {
 }
 .sliderBtns ul li:hover{
   border-bottom: 2px solid #76BD22;
+}
+.sliderBtns ul li:active{
+  border-bottom: 2px solid #76BD22;
+}
+.menuactive{
+  border-bottom: 2px solid #76BD22 !important;
 }
 
 .mainimagessc {
@@ -3032,26 +3068,64 @@ footer#footer {
   background-color: #217730;
 }
 
+.sliderBg{
+	background-image: url(https://ik.imagekit.io/ofb/sunflow/Rectangle-6_kc-2tWcWd6.png?updatedAt=1630319336074), url(https://ik.imagekit.io/ofb/sunflow/Rectangle-2_iH_JSBEye.png?updatedAt=1630319335222), url(https://ik.imagekit.io/ofb/sunflow/Rectangle-1_kY6NjtEmqs.png?updatedAt=1630319334568);
+    background-position: center center, top left, bottom right;
+    background-size: cover, contain, contain;
+    /* min-height: 500px; */
+    background-repeat: no-repeat;
+    background-color: #162330;
+}
+
 .mobileSliderBtns {
-  position: absolute;
-  width: 70%;
+  /* position: absolute; */
+  /* width: 70%;
   margin-left: 15%;
   margin-right: 15%;
-  top: 50%;
-  -webkit-transform: translate(0%, -50%);
+  top: 50%; */
+  /* -webkit-transform: translate(0%, -50%);
   -moz-transform: translate(0%, -50%);
   -ms-transform: translate(0%, -50%);
   -khtml-transform: translate(0%, -50%);
-  -o-transform: translate(0%, -50%);
+  -o-transform: translate(0%, -50%); */
+  padding: 30px 10%;
+  padding-top: 110px;
+}
+
+.mobileSliderBtns h1 {
+  font-size: 40px;
+  color: #fff;
 }
 
 .mobileSliderBtns p {
   display: block;
-  margin-bottom: 45px;
-  color: #ffffff;
-  text-align: center;
+  color: #76bd22;
+  text-align: left;
   font-weight: bold;
-  font-size: 1.9em;
+  font-size: 21px;
+  margin: 25px 0px;
+  line-height: 30px;
+}
+
+.mobileSliderBtns .about-bg {
+  color: #fff;
+  font-size: 16px;
+  line-height: 22px;
+  margin-bottom: 80px;
+  display: block;
+}
+
+.mobileSliderBtns h2 { 
+  color: #fff;
+  font-size: 30px !important;
+  font-weight: bold;
+  margin: 20px 0;
+}
+
+.mobileSliderBtns ul li {
+  color: #fff;
+  font-size: 30px;
+  padding: 20px 0px;
 }
 
 .mobileSliderBtns a {
@@ -3059,16 +3133,11 @@ footer#footer {
 }
 
 .mobileSliderBtns a {
-  background-color: #217730;
-  padding: 10px 30px;
   color: #ffffff !important;
-  width: 100%;
-  text-align: center;
-  margin-bottom: 20px;
 }
 
 .react-swipeable-view-container>div:first-of-type .mobileSliderBtns a:first-of-type, .react-swipeable-view-container>div:nth-of-type(2) .mobileSliderBtns a:nth-of-type(2), .react-swipeable-view-container>div:nth-of-type(3) .mobileSliderBtns a:nth-of-type(3), .react-swipeable-view-container>div:last-of-type .mobileSliderBtns a:last-of-type {
-  background-color: #217730;
+  /* background-color: #217730; */
 }
 
 .fe {
@@ -4490,28 +4559,9 @@ ul.breadcrumb li a {
     position: relative;
     bottom: 9px;
   }
-  .sliderBtns {
-    top: 45% !important;
-  }
-  .sliderBtns h1 {
-    font: normal normal normal 27px/97px Montserrat !important;
-  }
-  .sliderBtns p {
-    width: 90% !important;
-    height: auto !important;
-    margin: 0 auto;
-    font-size: 14px !important;
-  }
+  
   .lineMain {
     width: 50% !important;
-  }
-  .sliderBtns ul {
-    display: block !important;
-    width: 90% !important;
-    margin: 0 auto;
-  }
-  .sliderBtns ul li {
-    margin-top: 40px !important;
   }
   .brig {
     border-right: 0px solid #fff !important;
@@ -13677,4 +13727,108 @@ nav .header-container .logo-container {
   font-size: 11px;
   text-transform: uppercase;
   font-weight: 600;
+}
+
+
+@media only screen and (max-width: 1023px) {
+  .fo {
+    flex-direction: column;
+}
+.fo-left {
+  width: 100%;
+}
+.fo-right {
+  width: 100%;
+}
+.sliderBtns{
+  display:block;
+}
+.sliderBtns {
+  position: absolute;
+  top: 50%;
+  left: 50% !important;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -khtml-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  width: 80% !important;
+  text-align: center;
+  margin: 0 auto;
+}
+.brand-logo.logo-i {
+  height: 60px;
+}
+.menu-logo-wrapper {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.menu-logo-wrapper img{
+  max-width: 100% !important;
+}
+.topBarInfoRight ul li a {
+  color: #fff;
+  border: 2px solid #76BD22;
+  /* padding: 12px 20px; */
+  border-radius: 25px;
+  text-transform: uppercase;
+  font-size: 11px;
+  font-weight: 700;
+  width: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+}
+.sliderBtns ul li {
+  display: flex;
+  text-align: left;
+  align-items: flex-end;
+  color: rgb(255, 255, 255);
+  font-size: 21px;
+  width: 100% !important;
+  /* float: left; */
+  justify-content: left !important;
+  border-bottom: 0px solid #fff !important;
+  line-height: 60px !important;
+  cursor: pointer;
+  flex-direction: row;
+}
+.sliderBtns ul {
+  display: block !important;
+  width: auto;
+  margin: 0px auto;
+  position: absolute;
+}
+.tabimgs{
+  height: 296px;
+  width: 100%;
+  -o-object-fit: revert;
+  object-fit: revert;
+}
+.container-fluid {
+  margin-right: auto;
+  margin-left: auto;
+  width: 100% !important;
+}
+.maintab p {
+  line-height: 23px;
+}
+.whiteBg{
+  margin-bottom: 20px;
+}
+.mobilegrid{
+  position:relative;
+}
+.arroebutton{
+  position: absolute;
+  right: 12px;
+  top: 35%;
+}
+.arroebuttonleft{
+  position: absolute;
+  left: 12px;
+  top: 35%;
+}
 }

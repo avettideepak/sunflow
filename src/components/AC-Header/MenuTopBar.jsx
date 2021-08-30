@@ -407,9 +407,11 @@ export default function MenuTopBar({ data, brands }) {
               </div>
             <div class="topBarInfoRight">
               <ul>
-                <li><Link href="#contactForm">Consult a specialist</Link></li>
-                
-                </ul></div></div></div>   
+                { isMobileState ? <li><Link href="#contactForm"><img src="https://ik.imagekit.io/ofb/sunflow/envelope_1GLoo24ja.png" /></Link></li> : 
+                  
+                  <li><Link href="#contactForm">Consult a specialist</Link></li>   }              
+              </ul>
+            </div></div></div>   
 
 
     </>

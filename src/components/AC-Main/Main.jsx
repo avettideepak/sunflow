@@ -10,6 +10,7 @@ import Slider from "./Slider";
 import SliderMobile from "./Slider_Mobile";
 import StaticContent from "@components/AC-StaticPages/StaticContent.jsx";
 import ServicesBox from "./Services/ServicesBox";
+import ServicesBoxMobile from "./Services/ServicesBox_Mobile";
 import VistorInfo from "./Services/VistorInfo";
 import FeaturedPromotions from "./FeaturedPromotions/FeaturedPromotions";
 import NavMenuHome from "./NavMenuHome";
@@ -56,18 +57,14 @@ function Main(props) {
             <div style={{ padding: "unset" }}>
               <div id="slide">
                 <div className="slideshow-container">
-                  {isMobileState ? <Slider /> : <Slider />}
+                  {isMobileState ? <SliderMobile /> : <Slider />}
                 </div>
               </div>
             </div>
 
 
-
-             <ServicesBox />
-           {/* <Events />            
-            <WhatsNew />
-            <Explore />         
-            <VistorInfo /> */}
+            {isMobileState ? <ServicesBoxMobile /> : <ServicesBox />}
+             
           </div>
         </div>
       </React.Fragment>

@@ -38,7 +38,7 @@ const Slider = () => {
 
       <div>
         <div style={{
-          background : "url('https://ik.imagekit.io/ofb/sunflow/Rectangle-6_1__T5GAn5hpF.png')",
+          background : "url('https://ik.imagekit.io/ofb/sunflow/Rectangle-6_2__xJuSYf27Vq.jpg')",
           minHeight : "750px",
           backgroundSize: "cover",
           backgroundPosition: "center",
@@ -51,11 +51,10 @@ const Slider = () => {
 
               <h2>How can we help you?</h2>
               <ul>
-                <li>Solar</li>
-                <li>Roofing</li>
-                <li>Windows & Doors</li>
-                <li>Insulation</li>
-                
+                <li><Link to="/solar">Solar</Link></li>
+                <li><Link to="/roofing">Roofing</Link></li>
+                <li><Link to="/windows-doors">Windows & Doors</Link></li>
+                <li><Link to="/insulation">Insulation</Link></li>                
               </ul>      
             </div>            
           </div>
