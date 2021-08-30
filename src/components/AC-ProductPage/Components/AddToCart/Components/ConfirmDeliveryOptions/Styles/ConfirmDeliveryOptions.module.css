@@ -1,0 +1,59 @@
+.container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  cursor: pointer;
+  z-index: 2;
+}
+
+.wrapper {
+  cursor: unset;
+  background-color: #fff;
+  box-shadow: 0 1px 4px 1px rgba(0, 0, 0, 0.5);
+  width: 50%;
+  min-width: 310px;
+}
+
+.head {
+  padding: 0 10px;
+  background-color: #555;
+  color: #fff;
+}
+.head h6 {
+  line-height: initial;
+  padding: 10px;
+}
+
+.body {
+  padding: 20px;
+}
+
+.body p {
+  line-height: initial;
+  padding: 10px 0;
+  font-weight: bold;
+}
+
+.buttons {
+  padding: 10px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.buttons button {
+  font-size: 16px;
+  min-width: 100px;
+  padding: 10px;
+  font-weight: bold;
+}
+
+.buttonYes {
+  background-color: #e22423;
+  color: #fff;
+}

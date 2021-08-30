@@ -1,0 +1,33 @@
+@keyframes anim-pulse{
+    0%   { 
+        opacity: 0 ;
+      -webkit-transform : scale(.5);
+        }
+    10% {
+        opacity: 1 ;
+    }
+  
+      90% {
+        opacity: 0 ;
+    }
+  
+    100% {
+        -webkit-transform : scale(1.25)
+    }
+  }
+  
+  
+  .core {
+      fill:rgb(0, 119, 255);
+  }
+  
+  .ring {
+  opacity: 0;
+  stroke: rgb(3, 101, 212);
+   -webkit-transform-origin: center;
+   -webkit-animation: anim-pulse 2s 1s infinite;
+   }
+  
+  .wrapper {
+      width: 50px;
+  }

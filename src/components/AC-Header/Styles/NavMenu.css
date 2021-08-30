@@ -1,0 +1,81 @@
+.mobile-nav-bar-container {
+  position: fixed;
+  z-index: 5;
+  right: 0;
+  top: 77px;
+  left: 0;
+  bottom: 0;
+  transition: transform 0.4s ease-in-out;
+  transform: translateX(-100%);
+}
+
+.mobile-nav-bar-container[open] {
+  transform: translateX(0%);
+}
+
+.mobile-nav-bar-container[open] .nav-wrapper.actual-nav {
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+
+
+.mobile-nav-icon > span {
+  background: #242424;
+  display: block;
+  margin: 8px 0;
+  position: relative;
+  height: 3px;
+  width: 26px;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+.mobile-nav-icon > span::before,
+.mobile-nav-icon > span::after {
+  background: #242424;
+  content: "";
+  display: block;
+  height: 3px;
+  top: -7px;
+  position: absolute;
+  width: 26px;
+  -webkit-transition: all 0.3s linear;
+  -moz-transition: all 0.3s linear;
+  -o-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+}
+
+.mobile-nav-icon > span::after {
+  top: inherit;
+  bottom: -7px;
+}
+
+.material-icons.mobile-nav-icon[open] > span {
+  background: transparent;
+}
+
+.material-icons.mobile-nav-icon[open] > span::before {
+  transform: rotate(-45deg);
+  top: 0;
+}
+
+.material-icons.mobile-nav-icon[open] > span::after {
+  transform: rotate(45deg);
+  top: 0;
+}
+
+.nav-content-wrapper {
+  height: 100%;
+}
+
+.search-bar-container {
+  padding: 5% 8%;
+}
+.search-bar-wrapper {
+  padding: 0 10px;
+  position: relative;
+  background-color: #fff;
+}

@@ -1,0 +1,92 @@
+.product-details-wrapper h2, .product-specs-wrapper h2 {
+  margin: 0 !important;
+}
+
+.product-details-wrapper, .product-specs-wrapper {
+  padding: 0;
+}
+
+.product-details-specs-container {
+  margin-bottom: 20px;
+}
+
+.product-details-specs-wrapper {
+  border: 1px solid #ddd;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.product-details-specs-container h3 {
+  padding-bottom: 12px;
+  margin: 20px 0;
+  font-size: 17px;
+  border-bottom: 1px solid #cdcd;
+  color: #242424;
+  font-weight: 500;
+}
+
+.product-details-specs-container .MuiPaper-root{
+  box-shadow: none !important;
+background-color: #fff;
+}
+
+.specs-list {
+  display: flex;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+}
+
+.specs-list .table>thead>tr>th, .specs-list .table>tbody>tr>th, .specs-list .table>tfoot>tr>th, .specs-list .table>thead>tr>td, .specs-list .table>tbody>tr>td, .specs-list .table>tfoot>tr>td {
+  white-space: pre-wrap;
+}
+
+#description, #Specifi {
+  font-weight: 400;
+  padding: 0px;
+}
+
+@media all and (max-width: 768px) {
+  .product-details-wrapper {
+    width: 100%;
+  }
+  /*.product-details-wrapper .otherDesktop {*/
+  /*  display: flex;*/
+  /*}*/
+  .product-specs-wrapper {
+    width: 100%;
+  }
+  .specs-list table.table {
+    width: 100%;
+    margin: 0;
+    font-size: 12px;
+  }
+  table td {
+    padding: 2px !important;
+  }
+}
+
+@media all and (min-width: 769px) and (max-width: 1024px) {
+  .product-details-wrapper {
+    width: 100%;
+  }
+  .product-specs-wrapper {
+    width: 100%;
+  }
+  .specs-list table.table {
+    width: 100%;
+    margin: 0;
+  }
+}
+
+@media all and (min-width: 1025px) {
+  .product-details-wrapper {
+    width: 40%;
+  }
+  .product-specs-wrapper {
+    width: 60%;
+  }
+  .specs-list table.table {
+    width: 100%;
+    margin: 0;
+  }
+}

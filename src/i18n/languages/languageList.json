@@ -1,0 +1,33 @@
+{
+  "lang": ["en", "es", "tr", "ar", "zh", "fr", "vi"],
+  "languageNames": {
+    "en": {
+      "default": true,
+      "name": "English American"
+    },
+    "ar": {
+      "default": false,
+      "name": "Arabic"
+    },
+    "es": {
+      "default": false,
+      "name": "Spanish"
+    },
+    "fr": {
+      "default": false,
+      "name": "French"
+    },
+    "tr": {
+      "default": false,
+      "name": "Turkish"
+    },
+    "vi": {
+      "default": false,
+      "name": "Vietnamese"
+    },
+    "zh": {
+      "default": false,
+      "name": "Chinese"
+    }
+  }
+}

@@ -1,0 +1,52 @@
+.getLocationButton {
+  margin: 10px;
+}
+
+.getLocationButton > button {
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.mapboxgl-ctrl-geocoder input {
+  font: inherit;
+  width: 100%;
+  border: 0;
+  background-color: transparent;
+  margin: 0;
+  height: 50px;
+  color: #404040;
+  color: rgba(0, 0, 0, 0.75);
+  padding: 6px 45px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  box-sizing: border-box;
+  line-height: 20px;
+  height: 36px;
+}
+
+.mapboxgl-ctrl-geocoder input:focus {
+  border-bottom: 0 !important;
+}
+
+.markerBtn {
+  background-color: transparent;
+  background-repeat: no-repeat;
+  border: none;
+  cursor: pointer;
+  overflow: hidden;
+  outline: none;
+  padding: 0;
+  display: flex;
+}
+.markerBtn:hover {
+}
+
+.marker-wrapper:hover {
+}
+
+@media all and (max-width: 640px) {
+  .mapboxgl-ctrl-geocoder input {
+    height: 50px;
+  }
+}

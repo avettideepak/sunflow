@@ -1,0 +1,132 @@
+.wrapper {
+  width: 60%;
+  margin: 30px auto;
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.sortByPagination {
+  display: grid;
+  grid-template-columns: 1fr;
+  /* margin: 20px 0; */
+}
+
+.mobileFilterBtn {
+  line-height: initial;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  background-color: #fff;
+  padding: 6px 10px;
+  width: 100%;
+  color: #000;
+}
+
+.subWrapper {
+  display: grid;
+  width: 100%;
+  margin: 15px auto;
+}
+
+.numOfItemsWrapper {
+  grid-row: 2/3;
+}
+
+/* CHECK THIS */
+.collectionsWrapper {
+  width: calc(70% + 32px);
+  margin: 40px auto;
+}
+.placeHolderWrap {
+  display: flex;
+}
+.mainImage {
+  display: flex;
+  width: 25vw;
+  height: 40vh;
+  color: gray;
+}
+.otherImage {
+  display: flex;
+  width: 12vw;
+  height: 20vh;
+  color: gray;
+}
+
+@media only screen and (min-width: 769px) {
+  .wrapper {
+    grid-template-columns: 1fr 3fr;
+    grid-column-gap: 20px;
+  }
+  .wrapper2 {
+    grid-template-columns: 1fr;
+    grid-column-gap: 20px;
+  }
+  .subWrapper {
+    margin-top: 0;
+  }
+
+  .sortByPagination {
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 20px;
+  }
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1279px) {
+  .wrapper {
+    width: 90%;
+  }
+  .wrapper2 {
+    width: 90%;
+    margin: 0 auto;
+  }
+  .collectionsWrapper {
+    width: calc(90% + 32px);
+    margin: 40px auto;
+  }
+}
+
+@media only screen and (min-width: 1280px) and (max-width: 1439px) {
+  .wrapper {
+    width: 80%;
+  }
+  .wrapper2 {
+    width: 80%;
+    margin: 0 auto;
+  }
+  .collectionsWrapper {
+    width: calc(80% + 32px);
+    margin: 40px auto;
+  }
+}
+
+@media only screen and (min-width: 1440px) and (max-width: 1679px) {
+  .wrapper {
+    width: 70%;
+  }
+  .wrapper2 {
+    width: 70%;
+    margin: 0 auto;
+  }
+  .collectionsWrapper {
+    width: calc(70% + 32px);
+    margin: 40px auto;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .wrapper {
+    width: 90%;
+  }
+  .wrapper2 {
+    width: 90%;
+    margin: 0 auto;
+  }
+  .collectionsWrapper {
+    width: calc(90% + 32px);
+    margin: 40px auto;
+  }
+}
+
+

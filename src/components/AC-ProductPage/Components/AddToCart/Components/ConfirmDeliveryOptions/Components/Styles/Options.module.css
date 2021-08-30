@@ -1,0 +1,7 @@
+input[type="radio"] {
+  display: none;
+}
+
+.radioButton > span:first-child {
+  color: #2d509f !important;
+}

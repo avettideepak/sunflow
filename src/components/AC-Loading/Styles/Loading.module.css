@@ -1,0 +1,50 @@
+/* Add to cart loading style starts here */
+.addToCartLoading {
+  background: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+}
+
+.addToCartLoading > div {
+  background: #fff;
+  width: auto !important;
+  padding: 15px 25px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.8);
+}
+
+.title {
+  padding: 10px 0;
+}
+
+/* Add to cart loading style ends here */
+
+/* Facets starts*/
+
+.facetsBeingFetched {
+  background: rgba(0, 0, 0, 0.2);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+}
+
+.facetsBeingFetched > div {
+  background: #fff;
+  width: auto !important;
+  padding: 15px 25px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.4);
+}
+
+/* Facets ends here */

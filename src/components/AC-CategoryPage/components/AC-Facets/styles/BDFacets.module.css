@@ -1,0 +1,105 @@
+.facetTitleWrapper {
+    /* border: 2px solid lightgrey; */
+    margin-bottom: 50px;
+    /* padding: 20px; */
+}
+
+.flexWrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.facetTitle {
+    color: #333333;
+    /* color: #222e50; */
+    cursor: pointer;
+    font-size: 1em;
+    font-weight: 600;
+    margin: 0px;
+    padding: 5px 0;
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    font-family: "Open Sans", sans-serif;
+    display: flex;
+    align-items: center;
+    /* border-bottom: 2px solid #333333; */
+}
+
+.facetFilterWrapper {
+    max-height: 0;
+    /* overflow-y: auto; */
+    overflow-y: hidden;
+}
+
+.facetFilterWrapper.active {
+    margin-top: 20px;
+    max-height: 220px;
+}
+
+.facetFilterWrapper.active.viewMoreActive {
+    max-height: 100%;
+}
+
+.facetHasCheckedOptions {
+    color: #ff00a2;
+}
+
+.viewMoreBtn {
+    padding: 20px 0 0;
+    font-weight: 600;
+    background:white;
+    color: #222e50;
+    font-size: 0.8em;
+}
+
+@media only screen and (min-width:769px) {
+    .facetTitle {
+        font-size: 1em;
+    }
+
+    .facetTitleWrapper {
+        /* padding: 10px; */
+    }
+
+    .facetTitleWrapper h3 {
+        font-size: 1.2em;
+        font-weight: 100;
+        margin-bottom: 5px;
+    }
+}
+
+@media only screen and (min-width:1024px) {
+    .facetTitle {
+        font-size: 1em;
+    }
+
+    .facetTitleWrapper {
+        /* padding: 20px; */
+    }
+
+    .facetTitleWrapper h3 {
+        font-size: 1.5em;
+    }
+}
+
+#Bathroom{
+    display:none;
+  }
+  #Bathrobes{
+    display:none;
+  }
+  
+  #Towels{
+    display:none;
+  }
+  #Manufacturer{
+    display:none;
+  }
+  #Organisation{
+    display:none;
+  }

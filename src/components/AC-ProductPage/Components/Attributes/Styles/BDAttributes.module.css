@@ -1,0 +1,31 @@
+.attributes {
+  font: 14px/1 "Open Sans", sans-serif;
+  color: #2b2b2b;
+}
+
+.attribute {
+  margin-top: 40px;
+}
+
+.attributes label,
+.attributes h4 {
+  margin-bottom: 10px;
+  font-weight: 500;
+  font: 14px/1 "Open Sans", sans-serif;
+  color: #2b2b2b;
+}
+
+.attributes select {
+  display: block;
+  width: 100%;
+  border-color: gray;
+}
+
+.attributes textarea {
+  border: 1px solid gray;
+  border-radius: 5px;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 8px;
+  margin: 0;
+}

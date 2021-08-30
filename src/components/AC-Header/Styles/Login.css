@@ -1,0 +1,209 @@
+
+.creamBg {
+  background: #f1f1f1;
+  padding: 30px 0px;
+}
+
+.whiteBg {
+  background: #fff;
+  padding: 30px 0px;
+}
+.ExtrabgColor{
+  background: #0d173c;
+  padding: 14px 0px;
+}
+._1XBjg- .Og_iib {
+  background-color: #85c232;
+  color: #fff;
+  padding: 40px 33px;
+  font-size: 15px;
+}
+._1XBjg- .Og_iib ._1hgiYz {
+  font-size: 19px;
+    font-weight: 500;
+}
+._1XBjg- .Og_iib ._1hgiYz {
+  font-size: 19px;
+    font-weight: 500;
+}
+._1XBjg- .Og_iib ._1NJjZd {
+  font-size: 16px;
+    margin-top: 16px;
+    line-height: 150%;
+    color: #fff;
+}
+._1NJjZd li{
+  margin-bottom: 15px;
+  display: flex;
+}
+._1NJjZd span{
+  font-size: 15px;
+    margin-bottom: 30px;
+    display: block;
+}
+._1NJjZd li i{
+  float: left;
+  margin-right: 10px;
+}
+._1XBjg- .Og_iib._3SWFXF {
+  background-image: url(https://ofb11dev.avetti.ca/preview/store/20210321817/uploads/login.png);
+  background-position: center 100%;
+  background-repeat: no-repeat;
+}
+._1XBjg- .Og_iib {
+  background-color: #85c232;
+  color: #fff;
+  padding: 40px 33px;
+  font-size: 15px;
+  height: 528px;
+}
+.MuiDialog-paperWidthMd {
+  max-width: 650px !important;
+}
+.MuiDialogContent-root {
+  flex: 1 1 auto;
+  padding: 0px 0px !important;
+  overflow-y: hidden !important;
+  overflow-x: hidden !important;
+  -webkit-overflow-scrolling: touch;
+}
+.siup{
+  position: absolute;
+  bottom: 32px;
+  right: 12%;
+  text-align: center;
+}
+.siup a{
+  color: #49557f !important;
+    font-weight: 500;
+    font-size: 16px;
+    display: table-caption;
+    width: 240px;
+    margin: 0 auto;
+}
+.MuiDialogContentText-root {
+  margin-bottom: 0px !important;
+}
+.MuiPaper-rounded:first-child {
+  padding-top: 0px !important;
+}
+.paddingRi{
+  padding:30px !important;
+}
+/* ._1XBjg- {
+  color: #212121;
+  margin: 0 auto;
+  border-radius: 2px;
+  height: 528px;
+} */
+/* ._1XBjg- .row {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+  -ms-flex-flow: row wrap;
+  flex-flow: row wrap;
+} */
+.Login_loginInputContainer__Xk1BK {
+  padding: 10px 0;
+  position: relative;
+}
+._21JmK0 {
+  right: 0;
+}
+._21JmK0, .eyCtv2 {
+  position: absolute;
+  display: inline-block;
+  bottom: 20px;
+}
+._1__46T {
+  font-weight: 500;
+  font-size: 15px;
+  cursor: pointer;
+  color: #49557f !important;
+}
+._21JmK0:hover {
+  text-decoration: underline;
+}
+
+
+._21JmK0 {
+  right: 0;
+}
+._21JmK0, .eyCtv2 {
+  position: absolute;
+  display: inline-block;
+  bottom: 20px;
+}
+._1__46T {
+  font-weight: 500;
+  font-size: 15px;
+  cursor: pointer;
+  color: #49557f !important;
+}
+._21JmK0:hover {
+  text-decoration: underline;
+}
+
+.MuiDialog-paperWidthMd {
+  max-width: 650px !important;
+}
+.maxDailogSiva2 {
+  flex: 1 1 auto;
+  padding: 0px 0px !important;
+  overflow-y: hidden !important;
+  -webkit-overflow-scrolling: touch;
+  overflow-x: hidden !important;
+  /* position: relative; */
+}
+
+.maxDailogSiva .MuiPaper-root{
+  position: relative;
+  overflow: visible;
+}
+
+.maxDailogSiva .closeBtn{
+  box-shadow: 0 2px 4px 0 rgb(0 0 0 / 40%);
+    position: absolute;
+    top: -15px;
+    right: -10px;
+    padding: 10px;
+    outline: none;
+    border: none;
+    background: #fff;
+    width: 25px;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: lowercase;
+    font-size: 18px;
+    border-radius: 50%;
+}
+.maxDailogSiva .closeBtn .material-icons{
+  font-size: 18px !important;
+  font-weight: bold;
+  color: #000;
+}
+.black {background:black;}
+.black > h3 {color: white;}
+
+.MuiDialog-paperFullWidth {
+  max-width: 650px !important;
+}
+
+.MuiDialog-paperWidthMd {
+  max-width: 650px !important;
+}
+@media only screen and (min-width: 320px) and (max-width: 1023px) {
+.siup {
+  text-align: center !important;
+  width: 100% !important;
+  margin: 20px auto !important;
+  display: flex !important;
+  position: inherit;
+}
+.MuiDialog-paperFullWidth {
+  width: calc(100% - 44px) !important; 
+}
+}

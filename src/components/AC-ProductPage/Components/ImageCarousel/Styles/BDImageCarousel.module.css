@@ -1,0 +1,125 @@
+/* .carouselThumbs {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 30px;
+    margin-top: 30px;
+}
+
+.carouselThumbs > li > img {
+    width: 100%;
+}  */
+
+.cContainer {
+  display: grid;
+  grid-template-columns: 20px 1fr 20px;
+}
+
+.cContainer > * {
+  grid-column: 2 / -2;
+}
+
+:root {
+  --gutter: 20px;
+}
+
+.app {
+  padding: var(--gutter) 0;
+  display: grid;
+  grid-gap: var(--gutter) 0;
+  grid-template-columns: var(--gutter) 1fr var(--gutter);
+  align-content: start;
+}
+
+.app > * {
+  grid-column: 2 / -2;
+}
+
+.app > .full {
+  grid-column: 1 / -1;
+  /* overflow-x: hidden; */
+}
+
+.hs {
+  display: grid;
+  grid-gap: calc(var(--gutter) / 2);
+  grid-template-columns: 10px;
+  grid-template-rows: minmax(250px, 1fr);
+  grid-auto-flow: column;
+  grid-auto-columns: calc(50% - var(--gutter) * 2);
+
+  overflow-x: scroll;
+  scroll-snap-type: x proximity;
+  padding-bottom: calc(0.75 * var(--gutter));
+  margin-bottom: calc(-0.25 * var(--gutter));
+}
+
+.hs:before,
+.hs:after {
+  content: "";
+  width: 10px;
+}
+
+.hs > li,
+.item {
+  scroll-snap-align: center;
+  padding: calc(var(--gutter) / 2 * 1.5);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: rgb(175, 59, 59);
+  /* border-radius: 8px; */
+  background-size: cover !important;
+}
+
+.shareWrapper {
+  margin: 20px auto;
+  display: flex;
+  flex-direction: column;
+}
+.innerShareWrap {
+  display: flex;
+  justify-content: space-between;
+}
+.shareText {
+  color: #727a7e !important;
+  font-size: 14px;
+  line-height: 160%;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  font-style: normal;
+  font-weight: normal;
+}
+.shareIcon {
+  color: #5cc0b6;
+}
+
+.magnifiedImageContainer {
+  margin-left: 40px !important;
+}
+.iconsWrapper {
+  font-weight: 600;
+  padding-bottom: 25px;
+  letter-spacing: 0.05em;
+  display: flex !important;
+  width: 10vw;
+  justify-content: space-around;
+}
+.shareButton {
+  font-size: 16px;
+  margin-right: 10px;
+  transition: all 1s;
+  cursor: pointer;
+}
+.shareButton:hover {
+  transform: translateY(-5px);
+}
+.shareButton circle {
+  fill: #5cc0b6 !important ;
+}
+
+@media all and (max-width: 1023px) {
+  .shareWrapper {
+    margin-top: 0;
+  }
+}

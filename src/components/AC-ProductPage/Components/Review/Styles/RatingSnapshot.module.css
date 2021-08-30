@@ -1,0 +1,60 @@
+.ratingSnapshot {
+  margin-top: 15px;
+  padding: 10px;
+}
+
+.averageRatingLabel {
+  padding-left: 5px !important;
+}
+
+.ratingMeter {
+  background-color: #cdcdcd;
+  /* box-shadow: inset 1px 1px 1px 0 rgba(0, 0, 0, 0.3),
+    inset -1px -1px 2px 0 rgba(0, 0, 0, 0.5); */
+  height: 17px;
+  cursor: pointer;
+}
+
+.ratingMeter:not(.ratingMeterFiltered):hover {
+  /* box-shadow: 0px 0px 2px 2px #f34a07, inset 1px 1px 1px 0 rgba(0, 0, 0, 0.3),
+    inset -1px -1px 2px 0 rgba(0, 0, 0, 0.3); */
+}
+
+.ratingMeterFiltered {
+  /* box-shadow: 0px 0px 3px 3px #f34a07, inset 1px 1px 1px 0 rgba(0, 0, 0, 1),
+    inset -1px -1px 2px 0 rgba(0, 0, 0, 1); */
+}
+
+.ratingMeterFilled {
+  background-color: #222;
+  /* box-shadow: inset 1px 1px 1px 0 rgba(0, 0, 0, 0.3),
+    inset -1px -1px 2px 0 rgba(0, 0, 0, 0.5); */
+  height: 17px;
+  display: flex;
+  align-items: center;
+}
+
+.meterColumnLabel {
+  text-align: center;
+  width: auto;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding-right: 10px;
+}
+
+.meterColumn {
+  padding: 5px 5px 5px 0 !important;
+  width: 100%;
+}
+
+.percentLabel {
+  padding-left: 5px !important;
+  color: #fff;
+}
+
+@media all and (max-width: 768px) {
+  .ratingSnapshot {
+    padding: 0;
+  }
+}

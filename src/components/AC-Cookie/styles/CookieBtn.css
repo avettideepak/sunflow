@@ -1,0 +1,23 @@
+.Button {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font: inherit;
+  height: 85%;
+  padding-left: 17px;
+  padding-right: 17px;
+  color: #fff;
+  background-color: #e22423;
+  border-radius: 5px;
+}
+
+.Button:hover {
+  background-color: grey;
+}
+
+@media only screen and (max-width: 767px) {
+  .Button {
+    margin-top: 35%;
+    height: 40%;
+  }
+}

@@ -1,0 +1,114 @@
+.container {
+  width: 29px;
+  line-height: 29px;
+  background: #fff;
+  border-radius: 100%;
+  position: relative;
+  text-align: center;
+  box-shadow: 0 0 4px 1px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container:hover {
+  box-shadow: 0 0 4px 1px rgba(0, 0, 0, 0.1), 0 0 0 4px rgba(0, 0, 0, 0.1);
+}
+
+.active {
+}
+
+.moreWindowListItemicons {
+  justify-content: space-evenly;
+}
+
+.moreWindowListItemicons button {
+  display: flex;
+}
+
+.container.active::after {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+.moreBtn {
+  line-height: inherit;
+}
+
+.moreWindow {
+  display: none;
+  padding: 5px 0px;
+  position: absolute;
+  width: 215px;
+  min-width: auto;
+  background-color: #fff;
+  box-shadow: 0 0 2px 1px rgb(0 0 0 / 20%);
+  bottom: 0px;
+  z-index: 10;
+  border-radius: 3px;
+  left: 40px;
+}
+
+.moreWindowListItem {
+  padding: 5px 10px;
+  display: flex;
+  font-size: 12px;
+  align-items: center;
+}
+
+.moreWindowListItem p {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.moreWindowListItem:hover {
+  background-color: #66666618;
+}
+
+.seperator {
+  content: "";
+  display: block;
+  height: 1px;
+  background: #ddd;
+  width: 85%;
+  margin: 5px auto;
+}
+
+.moreWindowListItem i {
+  padding-right: 5px;
+}
+
+.moreWindow.active {
+  display: block;
+}
+
+.backdrop {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: block;
+  z-index: 9;
+}
+
+@media all and (max-width: 520px) {
+  .moreWindow {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.3);
+    padding-bottom: 5vh;
+  }
+  .moreWindowListItem {
+    padding: 10px 5%;
+  }
+}

@@ -1,0 +1,78 @@
+.paginationBtn {
+  font: 14px/1 "Open Sans", sans-serif;
+  cursor: pointer;
+  float: left !important;
+  overflow: hidden;
+  width: auto;
+  position: relative;
+  text-decoration: none;
+  font-size: 18px;
+  padding: 10px 6px;
+  font-size: 15px;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  border: 1px solid #707070;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+  margin: 0 5px;
+  line-height: 14px;
+}
+
+.selected {
+  color: #fff;
+  background-color: #707070;
+}
+
+.paginationBtn i {
+  font-size: 26px !important;
+  line-height: 0.4 !important;
+  margin-left: 0 !important;
+  position: unset !important;
+}
+
+.last {
+  padding-right: 0 !important;
+  border-radius: 0 !important;
+  border: none !important;
+  width: auto !important;
+}
+
+.first {
+  padding-left: 0 !important;
+  border-radius: 0 !important;
+  border: none !important;
+  width: auto !important;
+}
+
+.prev, .next {
+  border-radius: 0 !important;
+  border: none !important;
+  width: auto !important;
+}
+
+.pagination li:first-child {
+  padding-left: 0;
+}
+
+@media only screen and (min-width: 769px) {
+  .paginationBtn {
+    padding: 10px 6px;
+    font-size: 15px;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    border: 1px solid #707070;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    margin: 0 5px;
+    line-height: 14px;
+  }
+  .paginationBtn i {
+    font-size: 18px !important;
+    line-height: 0.6 !important;
+    margin-left: 0 !important;
+  }
+}

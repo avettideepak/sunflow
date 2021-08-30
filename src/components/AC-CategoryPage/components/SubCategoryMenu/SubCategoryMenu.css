@@ -1,0 +1,28 @@
+.sub-nav-childs-wrapper {
+  padding: 5px 0 5px 7px;
+  flex-direction: column;
+  line-height: initial;
+  transform: scaleY(0);
+  display: none;
+  transition: transform ease-in 0.3s;
+}
+
+.sub-nav-childs-wrapper.expanded {
+  display: flex;
+  transform: scaleY(1);
+}
+
+.sub-nav-child-icon-link-wrapper {
+  display: inline-flex;
+  align-items: center;
+}
+
+.sub-nav-child-toggle-icon {
+  cursor: pointer;
+  font-weight: 600;
+  padding-right: 5px;
+}
+
+.placeholder-icon {
+  width: 29px;
+}

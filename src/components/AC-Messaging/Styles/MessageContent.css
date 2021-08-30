@@ -1,0 +1,142 @@
+.message-content-header {
+  background-color: #444;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px 10px;
+  width: 100%;
+}
+
+.message-content__title {
+  font-size: 1rem;
+  line-height: initial !important;
+}
+
+.message-content-close-icon {
+  margin-left: auto;
+}
+
+.message-content-close-icon i {
+  font-size: 2.5rem;
+  cursor: pointer;
+}
+
+.message-content-close-icon i:hover,
+.message-content-close-icon i:focus {
+  background-color: #c8c8c8;
+  border-radius: 50%;
+}
+
+.message-content-container {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.message-content-wrapper {
+  background-color: #fff;
+  box-shadow: 0 0 2px 1px #000;
+  max-width: 600px;
+  width: 95%;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.message-content__content {
+  display: flex;
+  flex-wrap: wrap;
+  min-height: 100px;
+  max-height: 45vh;
+  overflow: auto;
+}
+
+.message-content__actions {
+  box-shadow: inset 0 1px 4px #c8c8c899, 0 1px 2px #c8c8c8,
+    inset 0 -1px 4px #c8c8c8;
+}
+
+.message-message-content__actions--input {
+  margin: 0 !important;
+  padding: 10px !important;
+  box-sizing: border-box !important;
+  border: none !important;
+  line-height: initial !important;
+  max-height: 10vh !important;
+  min-height: 50px;
+}
+
+.message-content-product-info {
+  background-color: #eee;
+  padding: 5px 10px;
+  line-height: initial !important;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
+  width: 100%;
+}
+
+.message-content-product-link {
+  font-weight: 600;
+}
+
+.message-content-product-link:hover,
+.message-content-product-link:focus {
+  color: #007bff !important;
+}
+
+.message-content-from-wrapper {
+  background-color: #ddd;
+}
+
+.message-content-from-image-container {
+  padding: 5px 10px;
+}
+.message-content-from-image-wrapper {
+  display: flex;
+  padding: 0 10px;
+
+  align-items: center;
+}
+.message-content-from-image {
+  background: #fff;
+  border-radius: 50%;
+  height: 34px;
+  width: 34px;
+  box-shadow: 0 0 2px #666;
+}
+
+.message-content-from-supplier {
+  padding: 0 10px;
+  font-size: 16px;
+}
+
+.message-content__actions-icons {
+  box-shadow: inset 0 1px 0 #c8c8c8;
+  display: flex;
+  padding: 5px 20px;
+  font-size: 1.2em;
+}
+
+.message-content-add-image-icon {
+  color: #007bff;
+  cursor: pointer;
+}
+
+.message-content-send-icon {
+  margin-left: auto;
+  color: #007bff;
+  cursor: pointer;
+}
+
+.message-content-add-image-icon:hover,
+.message-content-send-icon:hover {
+  transform: scale(1.1);
+}
+
+.message-content-file-input {
+  display: none !important;
+}

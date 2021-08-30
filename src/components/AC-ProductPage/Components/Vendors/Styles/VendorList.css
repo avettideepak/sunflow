@@ -1,0 +1,37 @@
+.also-available-wrapper {
+  border: 1px solid #ddd;
+  margin-bottom: 10px;
+}
+
+.also-available-header {
+  margin: 0 !important;
+  border-bottom: none;
+  background-color: #eee !important;
+}
+
+.itemDistributors {
+  padding: 0 !important;
+  overflow-x: auto;
+}
+
+#myTable {
+  border: none;
+  margin: 0;
+}
+.itemDistributors table td {
+  padding: 8px !important;
+}
+
+select {
+  padding: 0 !important;
+}
+
+.form-control {
+  padding-left: 0 !important;
+}
+
+@media all and (max-width: 768px) {
+  #myTable {
+    font-size: 12px;
+  }
+}

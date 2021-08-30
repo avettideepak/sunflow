@@ -1,0 +1,41 @@
+.container {
+  margin: 10px 0;
+  margin-right: 0.66%;
+}
+.wrapper {
+  padding: 10px;
+  background-color: #f5f5f5;
+  display: flex;
+  align-items: center;
+}
+.innerWrapper {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.userLocation {
+  display: flex;
+  align-items: center;
+}
+
+.distanceText {
+  line-height: initial;
+}
+
+.slider {
+  padding: 20px 30px 20px 30px;
+}
+.locationAndSliderWrapper {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.slider {
+  flex-grow: 1;
+}
+
+@media all and (max-width: 768px) {
+  .locationAndSliderWrapper {
+    flex-direction: column;
+  }
+}

@@ -1,0 +1,23 @@
+.reviewGrid {
+  margin-top: 30px;
+  display: inline-flex;
+  align-items: center;
+}
+
+.reviewStars {
+  margin-right: 10px;
+  margin-left: -2px;
+}
+
+.reviewStars i {
+  color: #5cc0b6;
+  font-size: 22px;
+}
+
+.writeReview {
+  letter-spacing: 0.2em;
+  font-style: normal;
+  font-weight: 700;
+  display: inline-block;
+  cursor: pointer;
+}

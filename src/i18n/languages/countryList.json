@@ -1,0 +1,268 @@
+{
+  "en": {
+    "default": true,
+    "name": "Global",
+    "country": "en",
+    "lang": "en",
+    "currency": "USD"
+  },
+  "global": {
+    "default": true,
+    "name": "Global",
+    "country": "en",
+    "lang": "en",
+    "currency": "USD"
+  },
+  "us": {
+    "default": false,
+    "name": "United States",
+    "country": "us",
+    "lang": "en",
+    "currency": "USD"
+  },
+  "uk": {
+    "default": false,
+    "name": "United Kingdom",
+    "country": "uk",
+    "lang": "en",
+    "currency": "EUR"
+  },
+  "gb": {
+    "default": false,
+    "name": "United Kingdom",
+    "country": "uk",
+    "lang": "en",
+    "currency": "EUR"
+  },
+  "ca": {
+    "default": false,
+    "name": "Canada",
+    "country": "ca",
+    "lang": "en",
+    "currency": "CAD"
+  },
+  "au": {
+    "default": false,
+    "name": "Australia",
+    "country": "au",
+    "lang": "en",
+    "currency": "EUR"
+  },
+  "bh": {
+    "default": false,
+    "name": "Bahrain",
+    "country": "bh",
+    "lang": "ar",
+    "currency": "EUR"
+  },
+  "dk": {
+    "default": false,
+    "name": "Denmark",
+    "country": "dk",
+    "lang": "en",
+    "currency": "EUR"
+  },
+  "fi": {
+    "default": false,
+    "name": "Finland",
+    "country": "fi",
+    "lang": "en",
+    "currency": "EUR"
+  },
+  "ie": {
+    "default": false,
+    "name": "Ireland",
+    "country": "ie",
+    "lang": "en",
+    "currency": "EUR"
+  },
+  "kw": {
+    "default": false,
+    "name": "Kuwait",
+    "country": "kw",
+    "lang": "ar",
+    "currency": "USD"
+  },
+  "mx": {
+    "default": false,
+    "name": "Mexico",
+    "country": "mx",
+    "lang": "es",
+    "currency": "USD"
+  },
+  "nz": {
+    "default": false,
+    "name": "New Zealand",
+    "country": "nz",
+    "lang": "en",
+    "currency": "USD"
+  },
+  "no": {
+    "default": false,
+    "name": "Norway",
+    "country": "no",
+    "lang": "en",
+    "currency": "EUR"
+  },
+  "fr": {
+    "default": false,
+    "name": "France",
+    "country": "fr",
+    "lang": "fr",
+    "currency": "EUR"
+  },
+  "nl": {
+    "default": false,
+    "name": "Netherlands",
+    "country": "nl",
+    "lang": "en",
+    "currency": "EUR"
+  },
+  "de": {
+    "default": false,
+    "name": "Germany",
+    "country": "de",
+    "lang": "en",
+    "currency": "EUR"
+  },
+  "it": {
+    "default": false,
+    "name": "Italy",
+    "country": "it",
+    "lang": "en",
+    "currency": "EUR"
+  },
+  "es": {
+    "default": false,
+    "name": "Spain",
+    "country": "es",
+    "lang": "es",
+    "currency": "EUR"
+  },
+  "tr": {
+    "default": false,
+    "name": "Turkey",
+    "country": "tr",
+    "lang": "tr",
+    "currency": "USD"
+  },
+  "pa": {
+    "default": false,
+    "name": "Panama",
+    "country": "pa",
+    "lang": "es",
+    "currency": "USD"
+  },
+  "ar": {
+    "default": false,
+    "name": "Argentina",
+    "country": "ar",
+    "lang": "es",
+    "currency": "USD"
+  },
+  "cl": {
+    "default": false,
+    "name": "Chile",
+    "country": "cl",
+    "lang": "es",
+    "currency": "USD"
+  },
+  "co": {
+    "default": false,
+    "name": "Colombia",
+    "country": "co",
+    "lang": "es",
+    "currency": "USD"
+  },
+  "br": {
+    "default": false,
+    "name": "Brazil",
+    "country": "br",
+    "lang": "en",
+    "currency": "USD"
+  },
+  "hk": {
+    "default": false,
+    "name": "Hong Kong",
+    "country": "hk",
+    "lang": "zh",
+    "currency": "USD"
+  },
+  "tw": {
+    "default": false,
+    "name": "Taiwan",
+    "country": "tw",
+    "lang": "zh",
+    "currency": "USD"
+  },
+  "zh": {
+    "default": false,
+    "name": "China",
+    "country": "zh",
+    "lang": "zh",
+    "currency": "USD"
+  },
+  "cn": {
+    "default": false,
+    "name": "China",
+    "country": "zh",
+    "lang": "zh",
+    "currency": "USD"
+  },
+  "sg": {
+    "default": false,
+    "name": "Singapore",
+    "country": "sg",
+    "lang": "en",
+    "currency": "USD"
+  },
+  "ae": {
+    "default": false,
+    "name": "United Arab Emirates",
+    "country": "ae",
+    "lang": "ar",
+    "currency": "USD"
+  },
+  "sa": {
+    "default": false,
+    "name": "Saudi Arabia",
+    "country": "sa",
+    "lang": "ar",
+    "currency": "USD"
+  },
+  "om": {
+    "default": false,
+    "name": "Oman",
+    "country": "om",
+    "lang": "ar",
+    "currency": "USD"
+  },
+  "eg": {
+    "default": false,
+    "name": "Egypt",
+    "country": "eg",
+    "lang": "ar",
+    "currency": "USD"
+  },
+  "vi": {
+    "default": false,
+    "name": "Vietnam",
+    "country": "vi",
+    "lang": "vi",
+    "currency": "USD"
+  },
+  "in": {
+    "default": false,
+    "name": "India",
+    "country": "en",
+    "lang": "en",
+    "currency": "USD"
+  },
+  "jp": {
+    "default": false,
+    "name": "Japan",
+    "country": "jp",
+    "lang": "en",
+    "currency": "USD"
+  }
+}

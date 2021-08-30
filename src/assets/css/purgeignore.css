@@ -1,0 +1,9 @@
+.pac-container {
+  z-index: 999999 !important;
+  position: absolute !important;
+}
+
+.hbspt-form {
+  width: 70%;
+  margin: 0 auto;
+}

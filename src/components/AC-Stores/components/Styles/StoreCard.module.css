@@ -1,0 +1,164 @@
+.wrapper {
+  padding: 20px 0px 0px 0px;
+  border: 1px solid rgb(232, 228, 228);
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: space-between;
+  position: relative;
+}
+
+.levels {
+  background: #434343;
+  color: #fff;
+  padding: 7px 20px;
+  font-size: 11px;
+  font-weight: 500;
+}
+
+.levels i {
+  font-size: 14px;
+  float: left;
+  margin-right: 5px;
+  position: relative;
+  top: -2px;
+}
+
+.imageWrapper {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 20px;
+}
+
+.active {
+  cursor: pointer;
+  font-size: 18px;
+  padding-left: 5px;
+  font-weight: bold;
+}
+
+.info {
+  color: #efef43;
+}
+
+.offer {
+  color: #ef7a43;
+}
+
+.explore {
+  color: #8181e5;
+}
+
+.shopping {
+  color: #7ad006;
+}
+
+.inactive {
+  cursor: not-allowed;
+  font-size: 18px;
+  padding-left: 5px;
+  font-weight: bold;
+  opacity: 0.3;
+  color: #555
+}
+
+.storeFeaturesWrapper {
+  position: absolute;
+  top: 6px;
+  right: 6px;
+  padding: 5px;
+  border: 1px solid #f9f9f9;
+  background: #ffffff94;
+  border-radius: 3px;
+}
+
+.imageWrapper a {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.imageWrapper img {
+  width: 100%;
+  max-height: 170px;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+
+.titleWrapper {
+  margin-top: 15px;
+  padding: 15px 20px 0px 20px;
+  border-top: 1px solid #cdcdcd;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.distance {
+  font-weight: bold !important;
+  display: flex !important;
+  align-items: center;
+  padding: 8px !important;
+  border-radius: 2px;
+}
+
+.titleWrapper span {
+  display: block;
+  font-weight: 400;
+  padding: 3px 0;
+  font-size: 12px;
+  height: 21px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.title {
+  font-weight: 600 !important;
+  font-size: 16px !important;
+}
+
+.withIcon {
+  display: flex !important;
+  align-items: center !important;
+  margin: 3px 0;
+}
+
+.withIcon>i {
+  font-size: 18px !important;
+  margin-right: 10px;
+}
+
+.phone {
+  color: #777;
+  font-weight: 600;
+}
+
+.storeItemLocationIcon {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  color: #777;
+  font-size: 12px;
+}
+
+.storeItemLocationIcon i {
+  color: #e60128;
+  font-size: 18px;
+  margin-right: 10px;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 1023px) {
+  .wrapper {
+    height: 220px !important;
+    padding: 0px !important;
+  }
+}

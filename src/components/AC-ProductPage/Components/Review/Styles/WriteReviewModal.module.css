@@ -1,0 +1,203 @@
+.container {
+  z-index: 5;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.wrapper {
+  background-color: #fff;
+  box-shadow: 0 0 4px 1px rgba(0, 0, 0, 0.3);
+  padding: 20px;
+  overflow: auto;
+  width: 768px;
+  max-height: 90vh;
+}
+
+.title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.title i {
+  font-size: 32px;
+  cursor: pointer;
+}
+
+.input {
+  border: solid 1px #cdcdcd !important;
+  height: 2.5em !important;
+  padding-left: 5px !important;
+  width: 100% !important;
+  box-shadow: 0 0 4px #cdcdcd !important;
+  box-sizing: border-box !important;
+  font-size: 18px;
+  line-height: initial !important;
+}
+
+textarea.input {
+  height: 8em !important;
+  padding: 5px !important;
+}
+
+.reviewTitle h4,
+.reviewDetails h4 {
+  font-weight: normal;
+  padding: 10px 0;
+}
+
+.itemTitle {
+  padding: 10px 0;
+
+  display: flex;
+}
+
+.itemTitle img {
+  height: 64px;
+}
+
+.itemTitle h6 {
+  padding-left: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.rating h4 {
+  font-weight: normal;
+  padding: 10px 0;
+}
+
+.rating {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+}
+
+.rating i {
+  cursor: pointer;
+  font-size: 38px;
+}
+
+.fileUpload {
+  padding: 10px 0;
+}
+
+.fileUploadInput {
+  padding: 20px 0 0 !important;
+  margin: 0 !important;
+  border: none !important;
+}
+
+.submit {
+  margin-top: 20px;
+}
+
+.button {
+  margin-top: 20px;
+  background-color: #e21a23;
+  color: #fff;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  width: 100%;
+  box-sizing: border-box !important;
+  height: 3em;
+  padding: 10px !important;
+}
+
+.errorText {
+  font-size: 14px;
+  color: rgb(224, 22, 22);
+  padding: 10px 0;
+}
+
+.successText {
+  padding: 10px 0;
+  font-size: 14px;
+  color: rgb(19, 158, 49);
+}
+.fileUploadDescriptionText {
+  padding-bottom: 15px;
+}
+.uploadedImageContainer {
+  display: flex;
+}
+.uploadedImageWrapper {
+  display: flex;
+  height: 72px;
+  width: 72px;
+  border: 4px solid #000;
+  position: relative;
+}
+
+.fileUploadContainer {
+  display: flex;
+}
+
+.uploadedImageRemoveIcon {
+  padding: 3px;
+  display: none;
+  position: absolute;
+  background-color: #fff;
+  color: #000;
+  top: -3px;
+  right: -3px;
+  border-radius: 50%;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.uploadedImageWrapper:hover .uploadedImageRemoveIcon {
+  display: block;
+  cursor: pointer;
+}
+
+.uploadedImageWrapper img {
+  max-width: 100% !important;
+  object-fit: cover;
+}
+
+.fileUploadWrapper {
+  position: relative;
+}
+.fileUploadButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 72px;
+  width: 72px;
+  background-color: #c8c8c8;
+  border: 4px dashed #666;
+}
+
+.fileUploadButton::before,
+.fileUploadButton::after {
+  content: "";
+  position: absolute;
+  width: 28px;
+  height: 4px;
+  background-color: #444;
+}
+
+.fileUploadButton::after {
+  transform: rotate(90deg);
+}
+
+@media all and (max-width: 768px) {
+  .wrapper {
+    height: 100%;
+    max-height: unset;
+  }
+
+  .rating {
+    display: flex;
+    flex-direction: column;
+  }
+}

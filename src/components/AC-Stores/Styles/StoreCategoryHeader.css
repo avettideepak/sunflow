@@ -1,0 +1,996 @@
+@font-face {
+  font-family: "Bellefair Regular";
+  font-display: block;
+  src: url(../../../assets/font/Bellefair-Regular.ttf) format("woff2");
+}
+
+.myContainer {
+  margin: 0 5% 0 5%;
+  border-bottom: 1px solid #eee;
+}
+
+.myContainerNew {
+  margin: 0;
+  /* border-bottom: 1px solid #eee; */
+}
+
+.banner {
+  height: 300px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.storeInfoWrapper {
+  margin: 0 0%;
+  margin-top: 0px;
+  margin-bottom: 20px;
+}
+
+.storeLogo {
+  height: 150px;
+  background-color: #f5f5f5;
+  align-items: center;
+  position: relative;
+  padding-left: 5%;
+  padding-right: 5%;
+  /* background-position: "bottom";
+  background-repeat: "no-repeat";
+  background-size: "cover" */
+}
+
+.storeLogo-overlay {
+  /* position: absolute; */
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px 5%;
+  display: flex;
+  /* background: transparent linear-gradient(360deg, #000000 0%, #1C1C1CF4 38%, #00000000 100%) 0% 0% no-repeat padding-box; */
+}
+
+.storeLogo-overlay-inner1 {
+  flex-basis: 100%;
+}
+
+.storeDescHeaderWrapper {
+  display: flex;
+  align-self: center;
+}
+
+.storeSocialIcons {
+  display: flex;
+  align-items: center;
+  padding-left: 100px;
+}
+
+.storeSocialIcons .shareIcons {
+  color: #fff;
+  font-size: 27px;
+  margin: 10px 20px;
+}
+
+/* .storeLogo-overlay-inner2{
+  flex-basis: 30%;
+  max-width: 30%;
+} */
+
+.storeLogo-overlay .storeNameHeader {
+  color: #242424;
+  font-size: 50px;
+  margin: 15px 0;
+  text-align: center;
+  font-family: initial;
+  font-family: "Bellefair Regular",sans-serif;
+  text-transform: uppercase;
+}
+
+.storeLogo-overlay .storeDescHeader {
+  color: #fff;
+  font-size: 13.5px;
+  margin: 10px 0;
+  line-height: 22px;
+}
+
+/* .storeLogo::before {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  content: "";
+  background-color: rgb(0, 0, 0, 0.8);
+} */
+
+.storeLogo img {
+  width: 100px;
+  min-height: 100px;
+  z-index: 9;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+.storeLocation {
+  color: rgb(80, 80, 80);
+}
+
+.seeReviews {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+/* .seeReviews:hover {
+  color: rgb(8, 8, 184);
+} */
+
+.storeInfoMain {
+  margin: 20px 5% 0;
+}
+
+.storeInfoMain, .storeLogo {
+  display: flex;
+  flex-direction: row;
+  /* justify-content: space-between; */
+}
+
+.storeInfoMainSnapshot {
+  display: flex;
+  width: 85%;
+  flex-direction: column;
+  margin: 0 auto;
+}
+
+.storeSnapshot {
+  margin-top: 20px;
+}
+
+.storeInfo1 {
+  display: flex;
+  align-items: left;
+  flex-direction: column;
+  width: calc( 35% - 20px);
+}
+
+.storeInfo1 p {
+  margin-bottom: 10px;
+  line-height: 1.1em;
+}
+
+.storeInfo2.storeHeader {
+  /* margin-top: -120px; */
+}
+
+.storeInfo2 {
+  display: flex;
+  align-items: left;
+  flex-direction: column;
+  width: 65%;
+  margin-right: 20px;
+  height: auto;
+}
+
+.storeDesc {
+  border-top: 1px solid #f1f1f1;
+  border-bottom: 1px solid #f1f1f1;
+  padding: 15px 0px;
+}
+
+.storeDesc h4 {
+  font-size: 15px;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+}
+
+.storeDesc p {
+  font-size: 14px;
+  line-height: 22px;
+  color: #555;
+  margin-bottom: 0px;
+}
+
+.storeDesc1 {
+  border-bottom: 1px solid #f1f1f1;
+  padding: 15px 0px;
+}
+
+.storeDesc1 i {
+  text-align: center;
+  border-radius: 50%;
+  color: #555558;
+  background: #f4f4f4;
+  float: none;
+  display: block;
+  width: 40px;
+  height: 40px;
+  font-size: 18px;
+  padding-top: 0;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 40px;
+  transition: .2s ease;
+  margin-bottom: 7px !important;
+  margin: 0 auto;
+  margin-right: 7px !important;
+}
+
+.storeDesc1 h4 {
+  font-size: 15px;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+}
+
+.storeDesc1 p {
+  font-size: 14px;
+  line-height: 22px;
+  color: #555;
+  margin-bottom: 0px;
+}
+
+.seller-have-no-products-wrapper h4 {
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.storeName {
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-size: 40px;
+  display: inline-flex;
+}
+
+.storeNameWrapper {
+  z-index: 9;
+  color: #000;
+}
+
+.storeInfo2 p {
+  line-height: 1.8em;
+  font-weight: normal;
+}
+
+.sellerSocialLogo {
+  max-width: 32px !important;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+
+.sellerSocialLine a:last-of-type .sellerSocialLogo {
+  margin-right: 0px;
+}
+
+.sellerSocialLine1 {}
+
+.sellerSocialLine1 a {
+  padding: 5px 5px;
+  margin-right: 10px;
+  display: inline-block;
+  text-align: center;
+}
+
+.sellerSocialLine {
+  display: inline-flex;
+  float: right;
+}
+
+.sellerSocialLine3 {
+  display: inline-flex;
+}
+
+.sellerSocialLine a {
+  padding: 5px 5px;
+  margin-right: 10px;
+  display: inline-block;
+  text-align: center;
+}
+
+.sellerSocialLine a i {
+  font-size: 19px;
+}
+
+.fa-facebook-f {
+  color: #4a68b0;
+}
+
+.fa-twitter {
+  color: #36b0e1;
+}
+
+.fa-instagram {
+  color: #e20671;
+}
+
+.fa-pinterest-p {
+  color: #e73e39;
+}
+
+a.mapsLink {
+  margin-top: 5px;
+  display: inline-block;
+  color: #289dd6 !important;
+}
+
+.reviewsRating {
+  margin-top: 10px;
+  display: flex;
+}
+
+.reviewsRatingText {
+  margin: 0 !important;
+  padding-top: 6px;
+  padding-left: 10px;
+  font-size: small;
+}
+
+.storeDescription p {
+  line-height: 1.7;
+  font-style: italic;
+  color: gray;
+}
+
+.storeDescription a {
+  display: block;
+  margin-top: 20px;
+  font-size: small;
+  text-decoration: underline;
+}
+
+.mapContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 2fr;
+  grid-gap: 20px;
+}
+
+.myDiv {
+  background: blue;
+  height: 400px;
+}
+
+.mapouter {
+  position: relative;
+  text-align: right;
+  width: 100%;
+  height: 200px;
+  /* margin-bottom: 15px; */
+}
+
+.gmap_canvas {
+  overflow: hidden;
+  background: none!important;
+  width: 100%;
+  height: 200px;
+}
+
+.gmap_iframe {
+  height: 200px!important;
+}
+
+.golo-button a {
+  background: none !important;
+  border: none !important;
+  padding: 0px !important;
+  margin: 0px !important;
+}
+
+.mapouter_product {
+  position: relative;
+  text-align: right;
+  width: 100%;
+  height: 220px;
+  /* margin-bottom: 15px; */
+}
+
+.gmap_canvas_product {
+  overflow: hidden;
+  background: none!important;
+  width: 100%;
+  height: 220px;
+}
+
+.gmap_iframe_product {
+  height: 220px!important;
+}
+
+.cr {
+  width: 200px;
+  padding: 8px;
+  position: absolute;
+  text-align: center;
+  color: #f0f0f0;
+  font-size: 12px;
+}
+
+.cr-sticky {
+  position: absolute;
+}
+
+.cr-top {
+  top: 10px;
+}
+
+.cr-bottom {
+  bottom: 25px;
+}
+
+.cr-left {
+  left: -50px;
+}
+
+.cr-right {
+  right: -75px;
+}
+
+.cr-top.cr-left, .cr-bottom.cr-right {
+  transform: rotate(-45deg);
+}
+
+.cr-top.cr-right, .cr-bottom.cr-left {
+  transform: rotate(45deg);
+}
+
+.cr-white {
+  background-color: #f0f0f0;
+  color: #444;
+}
+
+.cr-gold {
+  background-color: #C9B037;
+}
+
+.cr-silver {
+  background-color: #B4B4B4;
+}
+
+.cr-bronze {
+  background-color: #AD8A56;
+}
+
+@media only screen and (max-width: 768px) {
+  .backButton-container {
+    margin-bottom: 20px;
+  }
+  .storeInfoWrapper {
+    grid-template-columns: 1fr;
+    text-align: left;
+    grid-gap: 20px;
+  }
+  .storeInfoMain {
+    flex-direction: column;
+  }
+  .storeInfo1 {
+    width: 100%;
+  }
+  .storeInfo2.storeHeader {
+    margin-top: 30px;
+  }
+  .storeInfo2 {
+    width: 100%;
+    margin-top: 30px;
+    margin-left: 0px;
+  }
+  .storeLogo img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+.aboutTabs h2 {
+  float: left;
+  /* margin-left: 30px; */
+  margin-bottom: 0px;
+  /* border-bottom: 0px; */
+  padding: 10px 20px 10px 10px;
+  font-size: 1.2em;
+  /* border-top-left-radius: 10px;
+  border-top-right-radius: 10px; */
+  /* background-color: #f5f5f5; */
+  cursor: pointer;
+  font-weight: normal;
+}
+
+.aboutTabs h2:first-of-type {
+  /* margin-left: 10px; */
+}
+
+.aboutTabs {
+  /* border-bottom: 1px solid #cdcdcd; */
+  background-color: #f9f9f9;
+}
+
+.tabBody {
+  padding: 15px 10px;
+  /* border: 1px solid #f1f1f1; */
+  border-top: 0px;
+  height: 100%;
+  max-height: 400px;
+  overflow-y: hidden;
+}
+
+.tabBody:hover {
+  overflow-y: auto;
+}
+
+.aboutTabs h2.activeTab {
+  /* background-color: #fff; */
+  color: #000;
+  border-bottom: 2px solid #24b9d2;
+}
+
+#pickUpData .pickupDataBox, #shippingData p, .storeInfo1 p, .storeInfo2 p {
+  line-height: 1.6em;
+  margin-bottom: 0px;
+  font-weight: 400;
+}
+
+#pickUpData .pickupDataBox strong, #shippingData p strong, .storeInfo1 p strong {
+  font-weight: 700 !important;
+}
+
+#pickUpData .pickupDataBox a, #shippingData p a {
+  color: #289dd6 !important;
+}
+
+.store-info {
+  display: flex;
+  align-items: flex-start;
+  width: 90%;
+  margin: 30px auto 10px;
+}
+
+.store-info-inner-1 {
+  display: flex;
+  padding: 0px 0 10px;
+  width: 70%;
+}
+
+.store-info-inner-2 {
+  background: #f5f5f5;
+  padding: 20px 35px;
+  width: calc(30% - 30px);
+  margin-left: 30px;
+}
+
+.store-info-inner-1 p {
+  font-size: 14px;
+  line-height: 27px;
+  font-weight: 600;
+  color: #242424;
+}
+
+.store-info-inner-2__data {
+  display: flex;
+  align-items: center;
+  margin: 15px 0;
+}
+
+.store-info-inner-2__data img {
+  height: 18px;
+  width: auto;
+  margin-right: 15px;
+}
+
+.store-info-inner-2__data p {
+  font-size: 12px;
+  line-height: 22px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  color: #1E1E1E;
+  width: 100%;
+  margin: 0 auto;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.store-divider {
+  width: 70%;
+  margin: 30px auto;
+  height: 1px;
+  background-color: #707070;
+}
+
+.dealsHeader, .trendingHeader {
+  font-size: 24px;
+    text-align: center;
+    font-weight: 600;
+    margin: 30px 0 30px;
+    width: 100%;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 1023px) {
+  .store-info {
+    flex-direction: column;
+  }
+  .store-info-inner-1 {
+    width: 100%;
+  }
+  .store-info-inner-2 {
+    width: 100%;
+    margin: 0;
+  }
+  .aboutTabs h2 {
+    font-size: 0.8em !important;
+    margin-left: 12px;
+    padding: 10px;
+  }
+  .aboutTabs h2:first-of-type {
+    margin-left: 5px;
+  }
+  .storeInfo1, .storeInfo2 {
+    box-shadow: none;
+  }
+  .tabBody {
+    max-height: 100%;
+  }
+  .storeLogo-overlay {
+    top: 15% !important;
+  }
+  .single-place .place-contact .entry-detail ul {
+    list-style-type: none;
+    padding-left: 0;
+    margin-bottom: 0;
+    display: block !important;
+    align-items: center;
+  }
+  .single-place .place-contact .entry-detail ul li {
+    display: flex;
+    margin-bottom: 15px;
+    word-break: break-word;
+    width: 100% !important;
+    margin-left: 5px;
+    margin-right: 5px;
+    display: flex;
+    align-items: center;
+  }
+  .place-booking.booking-info .button-contact {
+    display: block !important;
+  }
+  .place-booking.booking-info .button-contact>.golo-button, .place-booking.booking-info .button-contact>.btn-send-message {
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 100% !important;
+    margin: 0 0px !important;
+  }
+  .storeDescHeaderWrapper {
+    display: block !important;
+    align-self: center;
+    width: 100%;
+  }
+  .storeSocialIcons {
+    display: block !important;
+    align-items: center;
+    padding-left: 0px !important;
+  }
+}
+
+.single-place .place-booking.has-sticky {
+  position: sticky;
+  top: 20px;
+  z-index: 2;
+}
+
+.bg-overlay {
+  background: rgba(0, 0, 0, 0.8);
+  position: fixed;
+  z-index: 5;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transition: all 0.3s ease 0s;
+  -moz-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+
+.single-place .place-booking .inner-booking {
+  border-radius: 10px;
+}
+
+.place-booking.booking-info .inner-booking {
+  border-radius: 10px;
+  box-shadow: 0 0 20px 0 rgb(0 0 0 / 10%);
+  border: solid 1px #eee;
+  background-color: #fff;
+  padding: 0 0 35px;
+}
+
+.single-place .place-booking .inner-booking {
+  margin-bottom: 40px;
+  background: #fff;
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  -webkit-transform: translate3d(0, 0, 0);
+  -moz-transform: translate3d(0, 0, 0);
+  box-shadow: 0 0 20px 0 rgb(0 0 0 / 10%);
+  -webkit-backface-visibility: inherit;
+  -moz-backface-visibility: inherit;
+  -webkit-transform: inherit;
+  -moz-transform: inherit;
+}
+
+.place-booking.booking-info .top-detail {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 25px 10px 25px;
+}
+
+.place-booking.booking-info .top-detail .place-status {
+  font-size: 15px;
+  font-weight: 400;
+  margin-bottom: 5px;
+}
+
+.place-status.close {
+  color: #f43319;
+}
+
+.place-status {
+  font-size: 15px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+}
+
+.place-booking.booking-info .top-detail .place-status i {
+  margin-left: -4px;
+}
+
+.place-status i {
+  margin-right: 5px;
+  position: relative;
+  top: -1px;
+  color: #5d5d5d;
+}
+
+.icon-large {
+  font-size: 24px;
+}
+
+.place-booking.booking-info .toggle-select {
+  font-size: 14px;
+  font-weight: normal;
+  position: relative;
+  margin-top: 8px;
+}
+
+.place-booking.booking-info .toggle-select .toggle-show {
+  cursor: pointer;
+}
+
+.place-booking.booking-info .toggle-select span {
+  font-weight: 500;
+}
+
+.place-booking.booking-info .toggle-select .toggle-show i {
+  font-size: 12px;
+  line-height: 1;
+  vertical-align: 1px;
+}
+
+.place-booking.booking-info .toggle-select .toggle-list {
+  background: #fff;
+  -webkit-box-shadow: 0 0 20px 0 rgb(0 0 0 / 10%);
+  -moz-box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 20px 0 rgb(0 0 0 / 10%);
+  padding: 15px;
+  border: 1px solid #eee;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  min-width: 240px;
+  position: absolute;
+  z-index: 1;
+  left: -10px;
+  right: 0;
+  top: 100%;
+  display: none;
+}
+
+.place-booking.booking-info .top-detail .author-avatar {
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 50px;
+  flex: 0 0 50px;
+  max-width: 100px;
+}
+
+[class*=hint--] {
+  position: relative;
+  display: inline-block;
+}
+
+.place-booking.booking-info .top-detail .author-avatar img {
+  width: 100px;
+  height: 50px;
+  overflow: hidden;
+  border-radius: 30px;
+  object-fit: cover;
+}
+
+.hint--top:before {
+  margin-bottom: -11px;
+  left: calc(50% - 6px);
+}
+
+.hint--top:after, .hint--top:before {
+  bottom: 100%;
+  left: 50%;
+}
+
+[class*=hint--]:before {
+  content: '';
+  position: absolute;
+  background: 0 0;
+  border: 6px solid transparent;
+  z-index: 1000001;
+}
+
+/* [class*=hint--][aria-label]:after {
+    content: attr(aria-label);
+} */
+
+.hint--top:after {
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  transform: translateX(-50%);
+}
+
+.hint--top:after, .hint--top:before {
+  bottom: 100%;
+  left: 50%;
+}
+
+/* [class*=hint--]:after {
+    background: #383838;
+    color: #fff;
+    padding: 8px 10px;
+    font-size: 12px;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    line-height: 12px;
+    white-space: nowrap;
+    text-shadow: 0 -1px 0 #000;
+    box-shadow: 4px 4px 8px rgb(0 0 0 / 30%);
+} */
+
+.place-booking.booking-info .contact-detail {
+  padding: 25px 25px 0;
+}
+
+.single-place .entry-heading {
+  margin-bottom: 20px;
+}
+
+.single-place .entry-heading {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.single-place .entry-heading .entry-title {
+  font-size: 18px;
+  line-height: 25px;
+  font-weight: 500;
+  margin-bottom: 0;
+}
+
+.single-place .place-contact .entry-detail ul {
+  list-style-type: none;
+  padding-left: 0;
+  margin-bottom: 0;
+  display: flex;
+  align-items: center;
+}
+
+.single-place .place-contact .entry-detail ul li {
+  display: flex;
+  margin-bottom: 15px;
+  word-break: break-word;
+  width: calc(25% - 10px);
+  margin-left: 5px;
+  margin-right: 5px;
+  display: flex;
+  align-items: center;
+}
+
+.single-place .place-contact .entry-detail ul li i {
+  position: relative;
+  top: 0px;
+  margin-right: 10px;
+  color: #cecece;
+}
+
+i.large {
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 900;
+}
+
+.single-place .place-contact .entry-detail ul li a {
+  line-height: 23px;
+}
+
+.place-booking.booking-info .contact-detail ul a {
+  color: #5d5d5d;
+}
+
+.place-booking.booking-info .button-contact {
+  align-items: center;
+  margin-left: -5px;
+  margin-right: -5px;
+  margin-top: 25px;
+  display: flex;
+}
+
+.place-booking.booking-info .button-contact>.golo-button, .place-booking.booking-info .button-contact>.btn-send-message {
+  padding-left: 5px;
+  padding-right: 5px;
+  width: calc(50% - 20px);
+  margin: 0 10px;
+}
+
+.single-place .place-booking .golo-button {
+  width: calc(50% - 20px);
+  margin: 0 10px;
+}
+
+.golo-button {
+  display: inline-block;
+}
+
+.place-booking.booking-info .button-contact>.golo-button>a, .place-booking.booking-info .button-contact>.btn-send-message>a {
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+.golo-button a, .gl-button, .wpcf7-submit {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 15px;
+  line-height: 20px;
+  font-weight: 500;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  border-radius: 0px;
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  -webkit-transform: translate3d(0, 0, 0);
+  -moz-transform: translate3d(0, 0, 0);
+  padding: 11px 25px;
+  color: #fff;
+  outline: 0;
+  cursor: pointer;
+  border: solid 1px #23d3d3;
+  background-color: #23d3d3;
+  -webkit-transition: all 0.3s ease 0s;
+  -moz-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+
+.place-booking.booking-info .button-contact>.golo-button, .place-booking.booking-info .button-contact>.btn-send-message {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.place-booking.booking-info .button-contact>.golo-button.btn-send-message>a, .place-booking.booking-info .button-contact>.btn-send-message.btn-send-message>a {
+  border-color: #2d2d2d;
+  color: #2d2d2d;
+  background: transparent;
+}
+
+.place-booking.booking-info .button-contact>.golo-button>a, .place-booking.booking-info .button-contact>.btn-send-message>a {
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+.resp-container {
+  position: relative;
+}
+
+.resp-iframe {
+  width: 650px;
+  height: 400px;
+}

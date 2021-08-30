@@ -1,0 +1,195 @@
+$break-mobile: 450px;
+$small-mobile: 400px;
+$flag-height: 30px;
+$flag-height-mobile: 20px;
+
+.language-div {
+  position: relative;
+  display: flex;
+}
+.select-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+
+  &::after {
+    display: none;
+    content: "▼";
+    font-size: 0.6em;
+    font-family: arial;
+    position: relative;
+    right: -5px;
+  }
+}
+
+img.language-flag-image {
+  max-height: 30px !important;
+  cursor: pointer;
+}
+
+.main-language {
+  position: absolute;
+  background: white;
+  /* width: 100%;*/
+  display: flex;
+  justify-content: center;
+  top: 55px;
+  left: -100px;
+  flex-direction: column;
+  padding: 35px;
+
+  & .language-flag {
+    width: 50px;
+    position: relative;
+    display: flex;
+
+    & img {
+      width: 90%;
+      box-shadow: 0 0 2px #000;
+    }
+  }
+  & .language-active {
+    &:after {
+      content: "";
+      position: absolute;
+      top: 7px;
+      left: -1px;
+      width: calc(100% - 3px);
+      height: 31px;
+      border: 3px solid #3f51b5;
+    }
+  }
+}
+
+.main-wishlist {
+  z-index: 9999;
+  position: fixed;
+  bottom: 50px;
+  background: #ffffff;
+  color: white;
+  right: 0px;
+  top: 50px;
+}
+
+.select-sim {
+  width: 70px;
+  height: 60px;
+  line-height: 22px;
+  vertical-align: middle;
+  position: relative;
+  background: white;
+  overflow: hidden;
+  border-radius: 10px;
+  padding: 5px 2px;
+}
+
+.select-sim::after {
+  content: "▼";
+  font-size: 0.5em;
+  font-family: arial;
+  position: absolute;
+  top: 50%;
+  right: 5px;
+  transform: translate(0, -50%);
+}
+
+.select-sim:hover::after {
+  content: "";
+}
+
+.select-sim:hover {
+  overflow: visible;
+}
+
+.select-sim:hover .options .option label {
+  display: inline-block;
+  display: flex;
+  justify-content: center;
+  padding: 5px 0px;
+}
+
+.select-sim:hover .options {
+  background: white;
+  border: 1px solid #ccc;
+  position: relative;
+  top: -13%;
+  left: -4%;
+  width: 108%;
+  height: auto;
+  border-radius: 10px;
+  z-index: 99;
+  padding: 10px 0px;
+  &::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    background-color: #f5f5f5;
+  }
+
+  &::-webkit-scrollbar {
+    width: 10px;
+    background-color: #f5f5f5;
+  }
+}
+
+.select-sim .options .option {
+  overflow: hidden;
+}
+
+.select-sim:hover .options .option {
+  height: 60px;
+  overflow: hidden;
+}
+
+.select-sim .options .option img {
+  vertical-align: middle;
+}
+
+.select-sim .options .option label {
+  display: none;
+}
+.select-sim .options .option .select {
+  width: 50px;
+  height: 50px;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.select-sim .options .option input {
+  width: 0;
+  height: 0;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  float: left;
+  display: inline-block;
+  /* fix specific for Firefox */
+  position: absolute;
+  left: -10000px;
+}
+
+.select-sim .options .option input:checked + label {
+  display: block;
+  width: 100%;
+}
+
+.select-sim:hover .options .option input + label {
+  display: flex;
+  justify-content: center;
+}
+
+.select-sim:hover .options .option input:checked + label {
+  background: #494949;
+}
+
+@media all and (max-width: 420px) {
+  img.language-flag-image {
+    max-height: $flag-height-mobile;
+  }
+
+  .main-language {
+    width: 100%;
+    left: 0%;
+    position: fixed;
+  }
+}

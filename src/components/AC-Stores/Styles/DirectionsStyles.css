@@ -1,0 +1,8 @@
+.mapbox-directions-instructions {
+  overflow: unset;
+  overflow-y: auto;
+}
+
+.toggle-button-container.collapsed ~ .mapboxgl-ctrl-directions {
+  display: none;
+}

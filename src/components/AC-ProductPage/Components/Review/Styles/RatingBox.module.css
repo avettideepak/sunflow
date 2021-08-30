@@ -1,0 +1,41 @@
+.container {
+  padding: 10px;
+}
+
+.wrapper {
+}
+
+.avgWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  box-sizing: border-box;
+  border: 3px solid #666;
+}
+.rangeWrapper {
+  padding: 10px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #666;
+  color: #fff;
+  position: relative;
+}
+
+.rangeLabel::before {
+  position: absolute;
+  content: "";
+  left: 50%;
+  top: -10px;
+  transform: translate(-50%);
+  border-right: 7px solid transparent;
+  border-bottom: 7px solid #666;
+  border-left: 7px solid transparent;
+}
+
+.averageRatingLabel {
+  font-weight: 600;
+  font-size: 2em;
+  color: #2d509f;
+}

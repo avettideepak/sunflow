@@ -1,0 +1,43 @@
+.blockedWrapper {
+  width: 50%;
+  line-height: initial;
+}
+
+.blockedWrapper p {
+  margin-bottom: 15px;
+}
+
+.blockedWrapper a,
+.blockedWrapper span[role="button"] {
+  color: blue;
+  text-decoration: underline;
+}
+
+.title {
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  padding: 2rem;
+  position: relative;
+}
+
+.title i {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 5px;
+  background-color: #333;
+  color: #fff;
+  border-radius: 50%;
+  cursor: pointer;
+  transform: translate(50%, -50%);
+}
+
+.title i:hover {
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.5);
+}
+@media all and (max-width: 768px) {
+  .blockedWrapper {
+    width: 85%;
+  }
+}

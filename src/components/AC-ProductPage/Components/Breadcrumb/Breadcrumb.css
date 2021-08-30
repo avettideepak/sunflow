@@ -1,0 +1,16 @@
+.backBtn {
+  background: #fd13a6;
+  color: #fff;
+  font-size: 15px;
+  text-align: center;
+  padding: 10px;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-weight: normal;
+  letter-spacing: 2px;
+  position: absolute;
+}
+
+.sub-nav-bread {
+  width: 100%;
+}

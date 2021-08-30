@@ -1,0 +1,222 @@
+/* laptop */
+.cookiePage {
+  font-family: MetricWeb, sans-serif;
+  /* background-color: #fff1e5; */
+  color: #33302e;
+  margin-left: 28%;
+  margin-right: 28%;
+  box-sizing: border-box;
+  display: table;
+  min-height: 100vh;
+  table-layout: fixed;
+  letter-spacing: 0.3px;
+  margin-bottom: 15%;
+}
+
+.first-para {
+  margin-right: 25%;
+}
+
+.cookiePage h1 {
+  display: block;
+  font-size: 28px;
+  line-height: 32px;
+  font-weight: 600;
+  margin-top: 35px;
+  margin-bottom: 16px;
+}
+
+.cookiePage p {
+  line-height: 20px;
+  font-size: 13px;
+}
+
+.cookiePage hr {
+  border-top: 1px black solid;
+  margin-bottom: 3px;
+}
+
+.cookiePage h2 {
+  display: block;
+  font-size: 18px;
+  line-height: 32px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+fieldset {
+  display: block;
+  margin-inline-start: 2px;
+  margin-inline-end: 2px;
+  padding-block-start: 0.35em;
+  padding-inline-start: 0.75em;
+  padding-inline-end: 0.75em;
+  padding-block-end: 0.625em;
+  min-inline-size: min-content;
+}
+
+.step1-field {
+  margin: 0 0 28px;
+  padding: 0;
+  border: none;
+}
+
+.step1-div1 {
+  margin-bottom: 10px;
+  display: flex;
+}
+
+.step1-span1 {
+  font-weight: 400;
+  display: block;
+  line-height: 20px;
+  font-size: 13px;
+}
+
+.step1-div1-div1 {
+  font-family: MetricWeb, sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+  background-color: lightgrey;
+  padding: 12px 16px 16px;
+  margin-top: 24px;
+  display: block;
+  letter-spacing: 0.3px;
+}
+
+.step1-acceptBtn {
+  text-align: center;
+  display: inline-block;
+}
+
+.step1-acceptBtn {
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.step2-first-para {
+  margin-top: 16px;
+  margin-bottom: 25px;
+  margin-right: 23%;
+}
+
+.step2-table {
+  margin-top: 20px;
+  font-size: 13px;
+  line-height: 20px;
+}
+
+.step3-third-party-list {
+  font-family: MetricWeb, sans-serif;
+  color: #33302e;
+  font-size: 13px;
+  line-height: 28px;
+}
+/* ipad pro */
+@media only screen and (max-width: 1024px) {
+  .cookiePage {
+    margin-left: 20%;
+    margin-right: 20%;
+  }
+  .first-para {
+    margin-right: 20%;
+  }
+
+  .cookiePage h1 {
+    margin-top: 24px;
+  }
+}
+/* ipad */
+@media only screen and (max-width: 768px) {
+  .cookiePage {
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+  .first-para {
+    margin-right: 0;
+  }
+
+  .cookiePage h1 {
+    margin-top: 24px;
+  }
+
+  .step2-first-para {
+    margin-right: 0%;
+  }
+}
+
+/* cell phone */
+@media only screen and (max-width: 767px) {
+  .cookiePage {
+    margin-left: 2%;
+    margin-right: 2%;
+  }
+  .first-para {
+    margin-right: 0;
+  }
+
+  .cookiePage h1 {
+    margin-top: 24px;
+  }
+
+  .step2-first-para {
+    margin-right: 0%;
+  }
+}
+
+table {
+  display: table;
+  border-collapse: collapse;
+  border-spacing: 2px;
+  border-color: grey;
+}
+
+tbody {
+  display: table-row-group;
+  vertical-align: middle;
+  /* border-color: inherit; */
+}
+
+tr {
+  display: table-row;
+  vertical-align: inherit;
+  border-color: inherit;
+}
+
+.table__cell-heading {
+  border-top: 1px solid #ccc1b7;
+  padding-top: 8px;
+  vertical-align: top;
+  /* display: block; */
+  font-weight: normal;
+  text-align: left;
+}
+
+.table__cell-content {
+  /* padding-bottom: 12px; */
+  border-top: 1px solid #ccc1b7;
+  padding-top: 8px;
+  vertical-align: top;
+  /* display: block; */
+}
+
+.fixedBtn {
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: #0d7680; /* Set a background color */
+  color: white; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 15px; /* Some padding */
+  font-size: 12px; /* Increase font size */
+  min-width: 300px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  font-weight: 800;
+  height: 40px;
+}
+
+.fixedBtn:hover {
+  background-color: #095259; /* Add a dark-grey background on hover */
+}

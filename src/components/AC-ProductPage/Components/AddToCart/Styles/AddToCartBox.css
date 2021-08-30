@@ -1,0 +1,98 @@
+.buy-box-qty-price-container {
+  display: flex;
+  width: 100%;
+  margin: 25px 0px 0px 0px;
+  flex-wrap: wrap;
+}
+.add-to-cart-stock-status {
+  margin: 10px 0;
+  padding-bottom: 15px;
+  line-height: initial;
+}
+
+.buy-box-qty-wrapper {
+  width: 100%;
+}
+#buyBoxPrice{
+  font-size: 31px;
+  font-weight: 900;
+}
+.offe{
+  font-size: 15px;
+  margin: 10px 0px;
+}
+
+.buy-box-price-wrapper {
+  /* display: flex;
+  flex-direction: column; */
+}
+
+.addToCartBtn {
+  background-color: #2d2d2d;
+  color: #fff !important;
+}
+
+.enquireAnimation {
+  background: transparent;
+    border: 1px solid #2d2d2d;
+    transition: all 0.5s;
+    position: relative;
+    width: 100%;
+    line-height: 24px;
+    min-width: 350px;
+}
+
+.enquireAnimation::before {
+  position: absolute;
+  content: "";
+  display: block;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  transform: scale(1, 1);
+  transform-origin: left center;
+  z-index: -1;
+  background: #f9f9f9;
+  animation-duration: 1s;
+  animation-fill-mode: both;
+  animation-name: growIn;
+}
+
+@keyframes growIn {
+  0% {
+    opacity: 0;
+    width: 0;
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1, 1);
+  }
+}
+/* .enquireAnimation:hover::before {
+  width:100%;
+  transform: scale(1, 1);
+} */
+
+.add-to-cart-box--per-unit-text {
+  font-size: 24px;
+  font-weight: bold;
+  width: 100%;
+  text-align: left;
+}
+
+#buyBoxAddToCartBtn.out-of-stock {
+  display: none;
+}
+
+@media all and (max-width: 768px) {
+  .pickupShipInfo {
+    margin-bottom: 20px;
+  }
+  #buyBoxPrice {
+    font-size: 24px !important;
+    font-weight: 600 !important;
+}
+}

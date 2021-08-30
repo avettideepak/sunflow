@@ -1,0 +1,11 @@
+[
+  {
+    "code": "CAD",
+    "conversionRate": 1,
+    "currencyId": 1141,
+    "def": true,
+    "enabled": true,
+    "sign": "$",
+    "signPos": 1
+  }
+]

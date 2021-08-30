@@ -1,0 +1,11 @@
+.modal-title-wrapper {
+  background: #fff;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.modal-title-wrapper i {
+  font-size: 32px;
+  padding: 5px;
+  cursor: pointer;
+}

@@ -1,0 +1,85 @@
+.review-stars {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.review-bar {
+  display: flex;
+  padding-top: 5px;
+}
+
+.review-stars-wrapper {
+  position: relative;
+}
+
+.review-bar-rating-snapshot {
+  transition: transform 0.2s ease-in-out;
+  transform-origin: top;
+  position: absolute;
+  transform: scale(0);
+  z-index: 3;
+  background-color: #fff;
+  min-width: 280px;
+  padding: 15px;
+  box-shadow: 0 1px 3px 0px rgba(0, 0, 0, 0.5);
+  right: 0%;
+}
+
+.review-bar-review-stars:hover ~ .review-bar-rating-snapshot {
+  display: block;
+  transform: scale(1);
+}
+
+.review-bar-rating-snapshot:hover {
+  transform: scale(1);
+}
+
+.review-snapshot-readAllReviews {
+  border-top: 1px solid #c8c8c8;
+}
+.review-snapshot-readAllReviews a {
+  color: #2d509f !important;
+}
+
+.review-bar-ratingMeter {
+  background-color: #aaa;
+  box-shadow: inset 1px 1px 1px 0 rgba(0, 0, 0, 0.3),
+    inset -1px -1px 2px 0 rgba(0, 0, 0, 0.5);
+  height: 17px;
+}
+
+.review-bar-ratingMeterFiltered {
+  box-shadow: 0px 0px 2px 4px #f34a07, inset 1px 1px 1px 0 rgba(0, 0, 0, 1),
+    inset -1px -1px 2px 0 rgba(0, 0, 0, 1);
+}
+
+.review-bar-ratingMeterFilled {
+  background-color: #2d509f;
+  box-shadow: inset 1px 1px 1px 0 rgba(0, 0, 0, 0.3),
+    inset -1px -1px 2px 0 rgba(0, 0, 0, 0.5);
+  height: 17px;
+  display: flex;
+  align-items: center;
+}
+
+.review-bar-meterColumnLabel {
+  text-align: center;
+  width: auto;
+}
+
+.review-bar-meterColumn {
+  padding: 5px 10px 5px 0 !important;
+  width: 75%;
+}
+
+.review-bar-percentLabel {
+  padding-left: 5px !important;
+  color: #fff;
+}
+
+.review-table-wrapper {
+  padding: 10px 0;
+}
+.review-bar-snapshot-avg-wrapper {
+  display: flex;
+}

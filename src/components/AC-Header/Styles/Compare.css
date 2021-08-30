@@ -1,0 +1,42 @@
+.compare-container.mobile {
+  background-color: #66666666;
+}
+
+.compare-container.mobile .compare-collapse-button {
+  top: -26px;
+  padding: 1px;
+  font-size: 12px;
+}
+
+.compare-container.mobile .compare-items-wrapper {
+  flex-direction: column;
+  height: 100%;
+}
+
+.compare-container.mobile .compare-item-container {
+  width: 100%;
+}
+.compare-container.mobile .compare-item-wrapper {
+  width: 100%;
+  height: 15vh;
+}
+
+.compare-container.mobile .compare-item-image-wrapper {
+  width: 50%;
+  height: 100%;
+}
+
+.compare-container.mobile .compare-item-info-wrapper {
+  width: 50%;
+  height: 100%;
+}
+
+.compare-container.mobile .compare-items-actions {
+  width: 100%;
+}
+
+.compare-container.mobile button {
+  margin: 10px;
+  width: 75%;
+  max-width: 275px;
+}

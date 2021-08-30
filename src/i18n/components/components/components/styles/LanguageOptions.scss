@@ -1,0 +1,26 @@
+.country-options {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 20px;
+  & .more-country {
+    margin-left: 20px;
+    width: 29px;
+    height: 29px;
+    line-height: 29px;
+    background: #fff;
+    border-radius: 100%;
+    position: relative;
+    text-align: center;
+    box-shadow: 0 0 4px 1px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    & .no-select {
+      font-size: 20px !important;
+    }
+  }
+}

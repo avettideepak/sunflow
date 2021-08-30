@@ -1,0 +1,191 @@
+/* Lucas jan 13 2020 */
+.newsletter-wrapper {
+  display: flex;
+  margin: 5%;
+}
+
+.mailchimp-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  width: 50%;
+}
+
+.newsletter-content {
+  width: 50%;
+  padding-right: 10px;
+  text-align: center;
+}
+
+.newsletter-content > h3 {
+  margin-bottom: 5px;
+  font-size: 32px;
+  text-align: center;
+  line-height: 42px;
+  margin-top: 60px;
+}
+
+.mailchimp-subscribe {
+  width: 100%;
+}
+
+.mailchimp-subscribe > input {
+  padding-left: 15px;
+  border: 1.5px solid lightgray;
+  border-radius: 5px;
+  width: 70%;
+  height: 48px;
+  border-right: 0px;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+  margin-bottom: 0;
+  box-sizing: border-box;
+}
+
+.mailchimp-subscribe > input:focus {
+  outline: none !important;
+  border: 1.5px solid lightgray !important;
+  /* border-right: 0px !important; */
+}
+
+.mailchimp-subscribe > button {
+  height: 48px;
+  background: #fcb800;
+  width: 30%;
+  vertical-align: top;
+  margin-left: 0px;
+  font-size: 16px;
+  font-weight: 600;
+  color: black;
+}
+
+.msg-alert {
+  height: 20px;
+  margin-top: 5px;
+}
+
+.mailchimp-subscribe-modal {
+  padding: 24px;
+}
+
+.mailchimp-subscribe-modal > input {
+  padding-left: 15px;
+  border: 0px;
+  border-bottom: 1px solid lightgray;
+  width: 80%;
+  height: 48px;
+  border-right: 0px;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+  margin-bottom: 20px;
+}
+
+.mailchimp-subscribe-modal > input:focus {
+  outline: none !important;
+}
+
+.mailchimp-subscribe-modal > button {
+  height: 50.5px;
+  background: #fcb800;
+  width: 50%;
+  vertical-align: top;
+  margin-left: 0px;
+  font-size: 16px;
+  font-weight: 600;
+  color: black;
+}
+
+.subscribe-modal-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+
+.subscribe-modal-content {
+  text-align: center;
+  padding-top: 30px;
+  background-image: linear-gradient(to right, white, #f0f1fd);
+}
+
+.subsribe-text > span {
+  clear: both;
+  display: block;
+  font-size: large;
+  margin-bottom: 10px;
+}
+.subsribe-text > span:first-child {
+  font-weight: 700;
+  font-size: 22px !important;
+  margin-bottom: 15px;
+  margin-top: 20px;
+}
+
+.subscribe-10-off {
+  font-size: 30px !important;
+  color: #e00101;
+  font-weight: 700;
+}
+
+.subscribe-modal-image > img {
+  object-fit: cover;
+  height: 100%;
+}
+
+.modal-close-btn {
+  position: fixed !important;
+  /* display:none !important; */
+}
+.rtl .mailchimp-subscribe input{
+  padding-right: 15px;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+  border-right: 1.5px solid lightgray;
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+  border-left: 0px;
+}
+
+@media only screen and (max-width: 599px) {
+  .subscribe-modal-image {
+    display: none;
+  }
+  .subscribe-modal-wrapper {
+    grid-template-columns: 1fr;
+  }
+  .modal-close-btn {
+    display: block !important;
+  }
+  .mailchimp-subscribe-modal > button {
+    width: 85%;
+  }
+
+  .newsletter-content {
+    width: 100%;
+  }
+  .newsletter-wrapper {
+    flex-wrap: wrap;
+  }
+
+  .mailchimp-wrapper {
+    margin-top: 20px;
+    width: 100%;
+  }
+
+  .mailchimp-subscribe {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .mailchimp-subscribe > input {
+    width: 100%;
+    box-sizing: border-box !important;
+    border: 1.5px solid lightgray;
+    border-radius: 5px;
+  }
+  .mailchimp-subscribe > button {
+    margin-top: 10px;
+    width: 100%;
+  }
+  .rtl .mailchimp-subscribe input{
+    border-left: 1.5px solid lightgray;
+  }
+}

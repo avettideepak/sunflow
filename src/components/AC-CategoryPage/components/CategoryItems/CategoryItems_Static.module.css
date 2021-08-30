@@ -1,0 +1,38 @@
+.categoryItemsContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 5%;
+    grid-row-gap: 20px;
+}
+
+.itemCardCollections {
+    width: calc(25% - 32px);
+    float: left;
+    margin: 0 16px 0px;
+    padding: 0px;
+}
+
+@media only screen and (min-width:769px) {
+    .categoryItemsContainer {
+        grid-column-gap: 20px;
+    }
+}
+
+@media only screen and (min-width:1024px) {
+    .categoryItemsContainer {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+@media only screen and (max-width:768px) {
+    .itemCardCollections {
+        width: calc(50% - 32px);
+    }
+}
+
+
+.testImage {
+    background:lightgray;
+    height: 100%;
+    background-size: cover;
+}

@@ -1,0 +1,49 @@
+.itemCard-buttons-container {
+  opacity: 0;
+  position: absolute;
+  width: 100%;
+  padding: 0 10px;
+  box-sizing: border-box;
+  display: block;
+  bottom: 70px;
+}
+
+.home-item:hover .itemCard-buttons-container,
+.home-item.mobile .itemCard-buttons-container {
+  opacity: 1;
+  z-index: 1;
+}
+
+.home-item.more-active .itemCard-buttons-container {
+  opacity: 1;
+}
+
+.item-card-figure {
+  overflow: hidden;
+}
+
+.item-card-image:not(.mobile):hover span.figure {
+  transition: transform 0.4s ease-in;
+  transform: scale(1.4);
+}
+
+.item-card-figure {
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+
+.home-item:not(.mobile):hover span.figure::before {
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-color: #000;
+  opacity: 0.2;
+}
+
+@media all and (max-width: 520px) {
+  .home-item.more-active .itemCard-buttons-container {
+    z-index: unset;
+  }
+}
